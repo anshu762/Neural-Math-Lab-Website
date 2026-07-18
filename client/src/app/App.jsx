@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import { SiteShell } from "@/components/layout/SiteShell";
 
-import LandingPage from "@/pages/LandingPage";
-import AboutPage from "@/pages/AboutPage";
-import ModulesPage from "@/pages/ModulesPage";
-import ModuleDetailPage from "@/pages/ModuleDetailPage";
-import UnitPage from "@/pages/UnitPage";
+import LandingPage from "@/Pages/LandingPage";
+import AboutPage from "@/Pages/AboutPage";
+import ModulesPage from "@/Pages/ModulesPage";
+import ModuleDetailPage from "@/Pages/ModuleDetailPage";
+import UnitPage from "@/Pages/UnitPage";
 import { AiChatWidget } from "@/components/chat/AiChatWidget";
 
 const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8080";
