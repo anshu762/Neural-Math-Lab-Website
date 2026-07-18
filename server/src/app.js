@@ -6,21 +6,25 @@ import chatRoutes from "./routes/chat.routes.js";
 
 const app = express();
 
-const allowedOrigins = [
-  env.clientUrl,
+const allowedOrigins = new Set([
+  (env.clientUrl || "").replace(/\/$/, ""),
   "http://localhost:5173",
-].filter(Boolean);
+  "https://neural-math-lab-website-production.up.railway.app",
+]);
+
+console.log("[CORS] allowed origins:", [...allowedOrigins]);
 
 app.use(
   cors({
     origin: (origin, callback) => {
-      if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, true);
-      } else {
-        callback(new Error(`CORS blocked origin: ${origin}`));
+      const normalizedOrigin = (origin || "").replace(/\/$/, "");
+      if (!origin || allowedOrigins.has(normalizedOrigin)) {
+        return callback(null, true);
       }
+      return callback(new Error(`CORS blocked origin: ${origin}`));
     },
     credentials: true,
+    optionsSuccessStatus: 204,
   })
 );
 
