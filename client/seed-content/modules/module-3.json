@@ -1,0 +1,164 @@
+{
+  "slug": "module-3",
+  "title": "Multiplication's Universe",
+  "order": 3,
+  "theme": "The theme is unlocking what multiplication and division really mean, and meeting fractions as numbers in their own right.",
+  "description": "A complete curriculum in eight units.",
+  "units": [
+    {
+      "slug": "place-value-to-thousands",
+      "title": "Place Value to Thousands",
+      "order": 1,
+      "bigIdea": "The bundle of ten pattern never stops. Thousands are ten hundreds, and the digit pattern repeats in predictable groups of three — which is exactly why commas break big numbers into readable chunks.",
+      "hook": "If hundred-bundles can themselves be bundled into a super-super-bundle of ten, what would that be called, and how big would it really be?",
+      "buildingTheIdea": "Use base-ten blocks scaled up conceptually: a thousand cube is ten hundred-flats stacked together. Show that the comma in 4,000 or 23,000 simply marks exactly where a new size-group begins — a reading helper, not a mathematical operation.",
+      "workedExamples": [
+        "Expanded form: 2,345 = 2,000 + 300 + 40 + 5.",
+        "Compare 4,521 and 4,512 by checking digit-by-digit from the left — they match until the tens place, which decides it.",
+        "Round 3,672 to the nearest hundred by asking: is it closer to 3,600 or 3,700 on a number line?"
+      ],
+      "misconceptionAlert": "Children often think rounding means arbitrarily changing digits by some memorized rule. Reframe it instead as 'which nearby round number is this actually closer to' — and always check on a number line between the two candidates.",
+      "tryItYourself": [
+        "Write 5,089 in expanded form.",
+        "Round 3,450 to the nearest hundred, and explain your reasoning using a number line, not just a rule.",
+        "Which is bigger, 6,099 or 6,910? Explain using place value."
+      ],
+      "whyThisMattersLater": "This same groups of three digits pattern explains why scientific notation groups digits the way it does, and this rounding reasoning directly supports estimation strategies for multi-digit operations in Module 4."
+    },
+    {
+      "slug": "multiplication-mastery",
+      "title": "Multiplication Mastery",
+      "order": 2,
+      "bigIdea": "The times tables aren't 100-plus unconnected facts to drill — they're built from a small number of visual properties (arrays, the distributive property, doubling) that let you derive any fact you don't instantly remember.",
+      "hook": "If you forgot what 7×8 was, could you figure it out quickly using facts you definitely already know — instead of panicking?",
+      "buildingTheIdea": "Revisit arrays at a bigger scale, and explicitly teach the break it apart distributive strategy: 7×8 = 7×5 + 7×3 = 35+21=56, or even friendlier, 7×8 = 7×10 − 7×2 = 70−14=56. Explore doubling too: knowing 6×6=36 means 6×12=72, just by doubling one factor.",
+      "workedExamples": [
+        "Derive 9× facts using one less group, subtract a row: 9×6 = 10×6 − 6 = 54.",
+        "Derive 6×7 from the known fact 5×7=35, plus one more 7: 35+7=42.",
+        "Use an array drawing to literally see why 3×4 and 4×3 give the same total — it's the same array, just viewed from the side."
+      ],
+      "misconceptionAlert": "Children often treat multiplication facts as isolated trivia with no relationship to each other — which causes total breakdown the moment memory fails under pressure. The fix is to always have a derivation strategy as backup, so no fact is ever memorized with nothing behind it.",
+      "tryItYourself": [
+        "Derive 8×7 two different ways.",
+        "Explain, using an array picture, why 4×9 and 9×4 must give the same answer.",
+        "Use the doubling strategy to find 6×14, starting from the known fact 6×7=42."
+      ],
+      "whyThisMattersLater": "The distributive strategy used here to derive facts becomes, almost word for word, the algebraic distributive property used to expand expressions like 6(x+3) in Modules 6-7."
+    },
+    {
+      "slug": "division-as-undoing-multiplication",
+      "title": "Division as Undoing Multiplication",
+      "order": 3,
+      "bigIdea": "Division isn't a separate operation to fear — it's the question multiplication leaves unanswered: 'I know the total and the group size or number of groups — what's missing?' Every division fact is hiding inside a multiplication fact you already know.",
+      "hook": "If 6 rows of seats hold 42 people total, and every row holds the same number, how could you figure out how many seats per row — using a multiplication fact you already know, run backward?",
+      "buildingTheIdea": "Explicitly connect every division problem to its multiplication fact family: 6×7=42, so 42÷6=7 and 42÷7=6. Build an array of 42 dots with 6 rows and count the columns — that count is the division answer, with no new procedure required.",
+      "workedExamples": [
+        "56÷8: ask '8 times what equals 56?' -> 7.",
+        "23÷5 with a remainder: make groups of 5 — 4 full groups (20), with 3 left over that can't form another full group."
+      ],
+      "misconceptionAlert": "Children often try to apply a memorized bigger number always goes on a certain side rule without understanding what’s actually being asked — how many groups, or how many in each group? Ground every problem in a real grouping story before introducing any notation.",
+      "tryItYourself": [
+        "Find 63÷9 by recalling a multiplication fact.",
+        "Share 29 pencils equally among 4 friends. How many does each get, and how many are left over? Why does that remainder make sense?",
+        "Build an array to find 48÷6."
+      ],
+      "whyThisMattersLater": "This fact-family connection between multiplication and division is exactly the relationship used to solve equations algebraically in Module 6 by undoing an operation to isolate a variable, and remainders return formally in Module 7 to explain why some fractions terminate as decimals and others repeat forever."
+    },
+    {
+      "slug": "fractions-as-numbers-not-slices",
+      "title": "Fractions as Numbers, Not Slices",
+      "order": 4,
+      "bigIdea": "A fraction isn't just a piece of pizza — it's a genuine point on the number line, exactly as real as a whole number. Recognizing this is what makes comparing, ordering, and eventually operating on fractions actually make sense.",
+      "hook": "Is 1/2 a real number, the same kind of thing as 5 — or is it just a way of describing a piece of food?",
+      "buildingTheIdea": "Draw a number line from 0 to 1, divide it into equal parts, and place fraction points on it exactly as whole numbers were placed back in Module 1 — building the idea that fractions live in the same number system, just between the integers. Build equivalence by folding: half of a paper strip is exactly the same length as two-quarters of an identical strip, shown by physically overlaying them.",
+      "workedExamples": [
+        "Locate 3/4 and 1/3 on the same number line; whichever sits further right is bigger.",
+        "Fold a strip in half, then fold an identical strip into quarters and shade two of them — overlay both, and they match exactly: 1/2 = 2/4.",
+        "Compare 1/3 and 1/4: the whole split into more parts (quarters) makes each individual piece smaller, even though 4 is a bigger number than 3."
+      ],
+      "misconceptionAlert": "Children very reliably believe a fraction with a bigger denominator must be the bigger fraction (assuming 1/8 > 1/4, because 8 is more than 4). Directly counter this by physically folding a strip into 4 parts versus 8 parts and comparing one resulting piece from each.",
+      "tryItYourself": [
+        "Place 2/3 and 3/4 on the same number line. Which is further right?",
+        "Order 1/2, 1/5, and 1/3 from smallest to largest, justifying your order with a folded strip or drawing.",
+        "Why does 1/4 sit further right than 1/8 on a number line, even though 8 is a bigger number than 4?"
+      ],
+      "whyThisMattersLater": "Fractions are real points on the number line is the entire premise that makes fraction operations, decimals, and the unification of fractions, decimals, and percentages in Module 6 make sense rather than feel like arbitrary rules."
+    },
+    {
+      "slug": "perimeter-area",
+      "title": "Perimeter & Area",
+      "order": 5,
+      "bigIdea": "Perimeter and area aren't two formulas to memorize. Perimeter is how far around and area is how many unit squares fit inside — and the formulas are simply fast ways to count what you could otherwise count by tiling.",
+      "hook": "If you wanted to put a fence around a garden, what would you need to measure? If you wanted to know how much grass seed to buy to cover it, is that the same measurement — or something different?",
+      "buildingTheIdea": "Walk the boundary of a rectangle drawn on grid paper, counting unit-length steps to find perimeter. Then count the actual unit squares inside to find area — and discover the length×width shortcut by noticing the rows-times-columns pattern, exactly the array idea from multiplication.",
+      "workedExamples": [
+        "A 4×3 grid rectangle: perimeter by walking the edge (4+3+4+3=14); area by counting squares (12, matching 4×3).",
+        "An irregular shape's area, found by counting whole and partial squares when no formula applies directly."
+      ],
+      "misconceptionAlert": "Children frequently confuse perimeter and area, or assume a shape with a bigger perimeter must have a bigger area. This is false: a long, thin rectangle can have a huge perimeter but tiny area compared to a square built from the same length of string.",
+      "tryItYourself": [
+        "Find the perimeter and area of a 5×2 rectangle by counting.",
+        "Build a 1×10 rectangle with the same perimeter as your 5×2 rectangle. Which one has more area? Why is that surprising?",
+        "Find the area of an irregular grid shape by counting whole and partial squares."
+      ],
+      "whyThisMattersLater": "This count the unit squares intuition is exactly what gets formalized into surface area in Module 6 and volume built from unit cubes in Module 5, and the same perimeter, different area surprise becomes an early entry point into optimization thinking in algebra."
+    },
+    {
+      "slug": "time-calendars-elapsed-time",
+      "title": "Time, Calendars, Elapsed Time",
+      "order": 6,
+      "bigIdea": "Calculating elapsed time is really just subtraction in a number system that doesn't bundle in tens — it bundles in 60s and 24s and irregular chunks — so the trading trick from Module 2 still applies, just with different bundle sizes.",
+      "hook": "A movie starts at 2:45 and ends at 4:10. How long is the movie — and why can't you just subtract 45 from 10?",
+      "buildingTheIdea": "Use a clock face or a minute-marked number line to walk from the start time to the end time in friendly jumps: 2:45 → 3:00 is 15 minutes, 3:00 → 4:00 is 60 minutes, 4:00 → 4:10 is 10 minutes — total 85 minutes, or 1 hour 25 minutes. Explicitly connect this to the trading idea from Module 2's subtraction unit: 60 minutes is this system's bundle size, instead of 10.",
+      "workedExamples": [
+        "Find the elapsed time between 9:20 and 11:05 using the friendly-jump strategy.",
+        "Figure out what date falls 10 days after the 27th of a 30-day month, discovering the carry over into the next month."
+      ],
+      "misconceptionAlert": "Children often try to subtract clock times digit by digit, as if they were ordinary base-ten numbers. The fix is to always jump in friendly chunks via a number line or clock face — never raw column subtraction on clock times.",
+      "tryItYourself": [
+        "Find how long a study session from 1:30 to 3:15 lasted.",
+        "Figure out what day of the week it will be 9 days from today, given today's day.",
+        "Explain in your own words why clock subtraction can't be done the same way as regular number subtraction."
+      ],
+      "whyThisMattersLater": "Recognizing that different number systems can have different bundle sizes directly previews understanding of non-decimal systems, including the base-60 logic of time and later modular arithmetic ideas in number theory."
+    },
+    {
+      "slug": "data-probability-intuition",
+      "title": "Data & Probability Intuition",
+      "order": 7,
+      "bigIdea": "Likely and unlikely aren't vague feelings — they can be reasoned about by counting how many ways an outcome could happen out of all the ways something could happen. This is the seed of formal probability.",
+      "hook": "If a bag has 8 red marbles and 2 blue ones, and you reach in without looking, are you more likely to pull out red or blue — and how sure are you, exactly?",
+      "buildingTheIdea": "Run simple chance experiments physically — drawing from a bag, spinning a simple spinner — many times, tallying the results, and comparing the actual outcome counts to what feels likely beforehand. Introduce the language certain, likely, unlikely, impossible, always tied to counted outcomes, not just gut feeling.",
+      "workedExamples": [
+        "Predict, then test, by drawing 20 times with replacement from an 8-red/2-blue bag: does red really come up far more often?",
+        "Design a spinner with unequal-sized sections, and discuss which color is most likely to win before spinning."
+      ],
+      "misconceptionAlert": "Children often believe small samples should always match the true likelihood exactly — expecting precisely 8 reds out of every 10 draws from an 8:2 bag. Repeated trials show real outcomes vary around the expected pattern, building healthy intuition about randomness rather than false certainty.",
+      "tryItYourself": [
+        "Design your own spinner so that one particular color is likely to win, and explain your reasoning.",
+        "Predict, before flipping a coin 10 times, whether heads or tails will win — then actually test it.",
+        "Why might your 10 coin flips not come out exactly 5 heads and 5 tails, even though each outcome is equally likely?"
+      ],
+      "whyThisMattersLater": "This counting-based reasoning about likelihood becomes formal probability fractions in Module 6, and compound and simulated probability in Module 7."
+    },
+    {
+      "slug": "patterns-pre-algebra",
+      "title": "Patterns & Pre-Algebra",
+      "order": 8,
+      "bigIdea": "A function machine is just a pattern rule wearing a new costume — a number goes in, a hidden rule changes it, and a number comes out. Figuring out the hidden rule from a few examples is exactly what algebra will eventually formalize.",
+      "hook": "If 3 goes in and 7 comes out, and 5 goes in and 9 comes out, can you figure out what's happening inside the machine — and predict what 10 would become?",
+      "buildingTheIdea": "Use simple in/out tables for rules like add 4 or double it, letting children discover the rule from a handful of given pairs rather than being told the rule upfront. Introduce missing-number puzzles (▢ + 5 = 12) as another costume for the same find the hidden piece thinking already practiced in subtraction.",
+      "workedExamples": [
+        "A table of pairs: 2→6, 4→8, 7→11 — discover the rule add 4.",
+        "Solve ▢ × 3 = 15 by reasoning what times 3 gives 15, connecting directly to known multiplication facts."
+      ],
+      "misconceptionAlert": "Children may guess a rule that fits only the first pair shown, and stop checking there. Insist on testing the guessed rule against every given pair before trusting it — this builds the genuinely mathematical habit of verification, not just pattern-guessing.",
+      "tryItYourself": [
+        "Find the rule from the table 1→3, 3→9, 5→15, and predict the output for 10.",
+        "Solve 4 + ▢ = 11 and explain your reasoning in words.",
+        "Make up your own in/out rule, give a partner three example pairs, and see if they can guess it — then check they got it right by testing a fourth pair."
+      ],
+      "whyThisMattersLater": "The box standing in for an unknown number here becomes the formal variable x in Modules 5-6, and the habit of discovering a rule from examples becomes exactly how functions are explored in Modules 7-8."
+    }
+  ]
+}

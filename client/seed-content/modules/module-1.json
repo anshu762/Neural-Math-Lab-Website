@@ -1,0 +1,149 @@
+{
+  "slug": "module-1",
+  "title": "Numbers Become Real",
+  "order": 1,
+  "theme": "The theme of this year is simple: numbers are not symbols, they're stories about quantity, and the child should be able to touch, count, and compare everything before any digit appears.",
+  "description": "A complete curriculum in seven units.",
+  "units": [
+    {
+      "slug": "numbers-as-stories",
+      "title": "Numbers as Stories",
+      "order": 1,
+      "bigIdea": "A number isn't a symbol to memorize — it's an answer to the question 'how many?', and the same number can describe completely different things because it's capturing something invisible they all share: their amount.",
+      "hook": "Imagine your friend asks you to hand them exactly 5 mangoes from a big basket. How do you actually know when you've handed over 5 — not 4, not 6? What is '5,' really, if it isn't the mangoes themselves?",
+      "buildingTheIdea": "Start with real objects — pebbles, seeds, bottle caps, fingers. Counting is 'one-to-one matching': each object gets exactly one count-word, in order, once. Take 5 pebbles and 5 claps. They look nothing alike. But if you match each pebble to one clap, they run out at exactly the same time. That matching — not the pebbles, not the claps — is the number 5.",
+      "workedExamples": [
+        "Line up 4 bottle caps and 4 leaves side by side, one to one. They match exactly — both groups are 4.",
+        "Line up 6 stones in a tight clump and 6 stones spread far apart. They look very different, but counted one at a time, both are 6.",
+        "Two kids each grab a handful of seeds. Instead of guessing whose handful is more by eyeballing it, line the seeds up next to each other, one per one. Whichever line runs out first had fewer."
+      ],
+      "misconceptionAlert": "Young children very reliably believe that a spread-out group of 6 objects has more than a tightly clumped group of 6 — because the spread-out group simply looks bigger. The fix is always the same: stop looking, and line the two groups up one-to-one.",
+      "tryItYourself": [
+        "Spread out 7 pebbles loosely and clump 7 buttons tightly. Which group has more? Check by lining them up.",
+        "Without counting first, guess which has more: a tall thin stack of 5 coins, or a flat spread of 8 coins. Then check.",
+        "Find two things in the room that are the same number even though they look completely different from each other."
+      ],
+      "whyThisMattersLater": "This one-to-one matching idea never disappears — it reappears as the test for whether two fractions are equal, whether two sets in a graph correspond, and eventually as the very definition of a function in Module 8."
+    },
+    {
+      "slug": "place-value-begins",
+      "title": "Place Value Begins — Bundles of Ten",
+      "order": 2,
+      "bigIdea": "Our number system never had to invent infinite new symbols for bigger and bigger numbers, because of one clever trick: once you have ten of something, you agree to call it one of the next size up. Every digit's position tells you which size group it's counting.",
+      "hook": "Imagine counting 47 seeds one at a time, out loud, in front of a friend. It's slow, and it's very easy to lose track or recount the same seed twice. Traders and record-keepers thousands of years ago had this exact problem — and they invented a trick still in use today. What might that trick be?",
+      "buildingTheIdea": "The trick is bundling. Count out ten seeds and tie or group them into a single bundle. Now you don't have to count seeds one at a time anymore — you can count bundles, and then count the few leftover loose seeds. '4 bundles and 7 loose ones' is far faster and far less error-prone to verify than 47 individual seeds — and it's exactly what the digits in '47' mean: the 4 means four bundles-of-ten, the 7 means seven loose ones. Move the digit one spot left, and suddenly it's counting bundles ten times bigger.",
+      "workedExamples": [
+        "Build the number 34 with bundles: make 3 bundles of ten matchsticks, then add 4 loose ones. Read it back as '3 tens and 4 ones,' then as '34.'",
+        "Take 23 loose buttons and bundle them. You can only make 2 full bundles of ten, with 3 left over — so 23 buttons becomes '2 bundles, 3 loose.'",
+        "56 = 50 + 6 = (5 bundles of ten) + (6 loose ones). Say it out loud both ways until both feel like the same fact."
+      ],
+      "misconceptionAlert": "A child can learn to read '34' as 'three, four' without ever grasping that the 3 secretly means thirty — three full bundles of ten — not three single things. The fix is to never let the digit appear without the physical bundle next to it until the idea is solid.",
+      "tryItYourself": [
+        "You have 38 sticks. Bundle them into tens. How many bundles, and how many are left over?",
+        "Build the number 52 using bundles and loose ones, two different ways.",
+        "If you had one more bundle of ten on top of 34, what number would you have, and why?"
+      ],
+      "whyThisMattersLater": "This bundling trick is reused forever: hundreds are bundles of ten tens, thousands are bundles of ten hundreds, and later tenths and hundredths in decimals are the same trick running in the opposite direction."
+    },
+    {
+      "slug": "addition-and-subtraction",
+      "title": "Addition as Joining, Subtraction as Separating",
+      "order": 3,
+      "bigIdea": "'+' and '−' aren't symbols to fear — they're verbs. Plus means joining two groups into one. Minus can mean three different real actions: taking away, finding a gap between two amounts, or finding what's missing to reach a target.",
+      "hook": "Tom has 5 marbles. Mina has 8 marbles. How many more does Mina have than Tom? Nobody is taking away anything here — so is this even a subtraction problem? It is.",
+      "buildingTheIdea": "Start concretely: two small groups of objects physically pushed together is addition. A group with some objects physically removed is the most familiar kind of subtraction — take-away. But there are two more disguises subtraction wears: comparison and missing-addend. Comparison asks 'how many more does one group have than the other?' Missing-addend asks 'I have 4 stickers and need 10 for the page — how many more do I need?' All three are written the same way with a minus sign, but a child who's only ever practiced 'take some away' will freeze on the other two unless they're explicitly shown that all three are the same operation in different clothes.",
+      "workedExamples": [
+        "Take-away: 9 birds on a branch, 3 fly away. How many remain? 9 - 3 = 6.",
+        "Comparison: A red tower has 7 blocks, a blue tower has 4. How many more blocks does the red tower have? Line the towers up — the gap is 3. 7 - 4 = 3.",
+        "Missing-addend: You have 6 crayons and want a full set of 10. How many more do you need? 6 + ? = 10, which is the same fact as 10 - 6 = 4."
+      ],
+      "misconceptionAlert": "Children taught subtraction only as 'take away' often cannot solve comparison or missing-addend word problems at all — not because the arithmetic is hard, but because nothing in the story tells them to take away anything. The fix is to deliberately mix all three flavors from day one.",
+      "tryItYourself": [
+        "A basket has 12 apples. You eat 5. How many are left? Which flavor of subtraction is this?",
+        "A boy has 9 toy cars, his sister has 6. How many more cars does the boy have?",
+        "You've read 3 pages of a 10-page book. How many pages are left to read?"
+      ],
+      "whyThisMattersLater": "The gap between two points idea becomes distance on the number line, then subtraction of negative numbers in Module 6, and eventually the definition of slope in Modules 7–8."
+    },
+    {
+      "slug": "shapes-are-everywhere",
+      "title": "Shapes Are Everywhere",
+      "order": 4,
+      "bigIdea": "A shape's name isn't the important part — its properties are: how many straight sides it has, how many corners, whether those sides are equal.",
+      "hook": "Look around the room right now. How many shapes can you spot hiding in ordinary objects — a window, a kite, a plate, a slice of bread? What makes a window's shape different from a plate's shape, in a way you could explain to someone who can't see either one?",
+      "buildingTheIdea": "Give a child a mixed pile of paper cut-out shapes and one instruction: sort these into two piles, however you want. Let them invent all sorts of reasonable rules — by color, by size, by shapes I like. Then ask: Can you sort them by something about the shape itself, not the color or size? This is where corners and sides emerge as the child's own discovery, not an imposed vocabulary list. Only once a child has noticed the properties do the official names get attached.",
+      "workedExamples": [
+        "Sort a pile into has corners and has no corners.",
+        "Among the has corners pile, count corners on each shape and sort again: 3 corners, 4 corners, more than 4.",
+        "Take a square cut-out and rotate it 45 degrees so it sits on a point. Ask: did the shape change? No — only its orientation did."
+      ],
+      "misconceptionAlert": "Many children believe a rotated square has become a diamond and is no longer a square — because they're matching against a memorized picture rather than checking the actual properties.",
+      "tryItYourself": [
+        "Go on a shape hunt and find 5 objects with straight-sided shapes and 3 with curved shapes.",
+        "Sort a mixed pile of shapes by number of corners, without naming any shape first.",
+        "Draw a triangle, then turn your paper upside down. Is it still a triangle? Why?"
+      ],
+      "whyThisMattersLater": "Properties define the shape, not the picture is the foundation for perimeter and area in Module 3, angle classification in Module 4, and congruence and similarity in Modules 7–8."
+    },
+    {
+      "slug": "measuring-without-a-ruler",
+      "title": "Measuring Without a Ruler",
+      "order": 5,
+      "bigIdea": "Before a ruler makes any sense, a child needs to understand what measuring actually is: comparing an unknown length against a known, repeated unit. A ruler is simply everyone agreeing in advance on the same-size unit, so that two people's measurements can be compared fairly.",
+      "hook": "Your desk and your friend's desk are in two different rooms. How could you find out whose desk is longer, without bringing both desks into the same room to look at them side by side?",
+      "buildingTheIdea": "Hand a child a paperclip and ask them to measure their pencil: how many paperclips long is it? Then hand a much larger paperclip to a partner and have them measure the same pencil. The two children will get different numbers for the exact same pencil — and that mismatch is the whole lesson. This felt frustration is exactly the problem a standard unit solves.",
+      "workedExamples": [
+        "Measure a book's length in hand-spans. Two children with different-sized hands get different counts for the same book.",
+        "Measure the same table leg with large paperclips and small paperclips. More small paperclips are needed than large ones — even though the leg's actual length never changed.",
+        "Introduce a centimeter ruler and measure the same pencil again — now everyone gets the same number."
+      ],
+      "misconceptionAlert": "Children often assume a bigger number of measuring units always means a longer object — but this completely depends on the size of the unit.",
+      "tryItYourself": [
+        "Measure your own arm in hand-spans, then have a friend measure their arm with their own hand-spans. Whose number is bigger? Does that mean their arm is longer?",
+        "Estimate, then check: how many of your shoe-lengths is the width of the room?",
+        "Why does everyone need to use a ruler with the same-sized centimeters, instead of everyone using their own personal unit?"
+      ],
+      "whyThisMattersLater": "The exact insight here — that the same true quantity can be described by different numbers depending on the size of the unit you're counting in — is the conceptual root of fractions, unit conversion, and rate/ratio reasoning in Module 6."
+    },
+    {
+      "slug": "patterns-maths-heartbeat",
+      "title": "Patterns — Math's Heartbeat",
+      "order": 6,
+      "bigIdea": "Mathematics is, underneath everything else, the study of patterns. Once you spot the rule behind a sequence, you can predict what comes next without anyone telling you.",
+      "hook": "Play a clapping/stomping game: clap, clap, stomp, clap, clap, stomp... and stop. Ask the child what comes next — purely by listening for the rule, not by being told.",
+      "buildingTheIdea": "Start with repeating patterns using colored objects or beads: red, blue, red, blue... Ask a child to describe the rule in their own words before naming it formally. Then introduce skip-counting by 2s, 5s, and 10s as a numerical pattern and connect this back to Unit 2's bundles of ten. Also introduce growing patterns (1, 3, 5, 7...) alongside repeating ones, so a child doesn't wrongly assume every pattern must repeat in neat blocks.",
+      "workedExamples": [
+        "Red, blue, red, blue, red, ?",
+        "2, 4, 6, 8, ?, ?",
+        "1, 3, 5, 7, ?"
+      ],
+      "misconceptionAlert": "Children who've only practiced repeating patterns will often try to force a growing pattern into a repeating shape.",
+      "tryItYourself": [
+        "What comes next: triangle, triangle, circle, triangle, triangle, circle, ?",
+        "What comes next: 5, 10, 15, 20, ?",
+        "Invent your own pattern and challenge someone else to guess your rule."
+      ],
+      "whyThisMattersLater": "This is the seed of algebra. Every function machine in Module 3, every algebraic expression in Module 6, is just a pattern rule written more formally."
+    },
+    {
+      "slug": "data-detectives",
+      "title": "Data Detectives",
+      "order": 7,
+      "bigIdea": "Data is just organized information collected to answer a real question someone actually cares about — not numbers filled into a worksheet for their own sake.",
+      "hook": "What's the most popular fruit among your friends at the center? You could just guess — or you could actually find out. How would you do that fairly?",
+      "buildingTheIdea": "Pose a real, answerable question, then physically collect the data: have each child place a token next to their favorite fruit, or literally stand in a group with others who chose the same one. Notice how a messy pile of fruit pictures is hard to read at a glance, but the same information, organized into neat rows, becomes instantly readable. The lesson isn't how to draw a graph — it's why organizing data is worth the effort.",
+      "workedExamples": [
+        "Tally votes for favorite fruit as they come in, one mark per vote, grouped in fives for easy counting.",
+        "Convert the tally into a simple pictograph, one icon per vote, all icons the same size.",
+        "Use the finished pictograph to answer real questions: which fruit won, which lost, how many more votes the winner got than the runner-up."
+      ],
+      "misconceptionAlert": "If icons in a pictograph are different sizes or unevenly spaced, children will misjudge which category is bigger just by glancing at it.",
+      "tryItYourself": [
+        "Ask 10 friends or family members their favorite color, tally the results, and turn it into a simple pictograph.",
+        "From your finished pictograph, which color won? How many more votes did it get than the least popular one?",
+        "Why would it be unfair to draw the winning category's icons bigger than the others?"
+      ],
+      "whyThisMattersLater": "This complete cycle — ask a real question, collect data, organize it, represent it, then interpret it — is the entire DNA of statistics. It gets reused, with fancier tools, all the way through Module 8's scatter plots."
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "slug": "module-6",
+  "title": "Crossing Into Algebra",
+  "order": 6,
+  "theme": "The theme is the official start of middle school: the number line extends in both directions, and letters stop being scary.",
+  "description": "A complete curriculum in eight units.",
+  "units": [
+    {
+      "slug": "integers",
+      "title": "Integers",
+      "order": 1,
+      "bigIdea": "Negative numbers are not strange new symbols — they are ordinary numbers used to describe direction, loss, or position below a reference point, and the number line naturally extends left of zero to include them.",
+      "hook": "If a lift can go 3 floors below the ground floor, or if you owe someone 5 rupees, how could you record that with a number instead of a long explanation?",
+      "buildingTheIdea": "Use real contexts like floors below ground, temperatures below zero, and money owed to show why whole numbers greater than zero are not enough. Extend the number line physically or visually past zero to the left, and emphasize that numbers keep their order there too: farther right still means greater, even when both numbers are negative.",
+      "workedExamples": [
+        "Compare -2 and -5 on a number line by locating both and noticing that -2 lies further right, so it is greater.",
+        "Represent a debt of 7 rupees as -7 and a gain of 4 rupees as +4, then combine them to get -3."
+      ],
+      "misconceptionAlert": "Children often think -5 must be bigger than -2 because 5 is bigger than 2. Re-anchor every comparison to the number line: the number farther right is always greater, no matter what sign it has.",
+      "tryItYourself": [
+        "Place -1, -4, 0, and 3 on a number line.",
+        "Which is greater: -6 or -2? Explain using position, not digit size.",
+        "A submarine is 8 meters below sea level. Write its position as an integer."
+      ],
+      "whyThisMattersLater": "This left-and-right view of number is the foundation for solving equations with negative values, graphing points in all four quadrants, and understanding rational numbers as one unified system in Module 7."
+    },
+    {
+      "slug": "ratios-rates-proportional-reasoning",
+      "title": "Ratios, Rates & Proportional Reasoning",
+      "order": 2,
+      "bigIdea": "A rate is just a ratio with unlike units, and proportional reasoning is the skill of recognizing when two quantities scale together in a constant way — so the 'same relationship' idea from Module 5 now becomes more precise and more powerful.",
+      "hook": "If 3 notebooks cost 24 rupees, how could you figure out the cost of 1 notebook, or 10 notebooks, without starting from scratch each time?",
+      "buildingTheIdea": "Start from familiar ratios and now formalize the move to unit rate: divide both quantities by the same amount to find the value 'per 1.' Connect tables, verbal descriptions, and scaling logic, showing that if the relationship is proportional, every row in the table is just a scaled version of every other row.",
+      "workedExamples": [
+        "If 3 notebooks cost 24 rupees, then 1 notebook costs 8 rupees, so 10 notebooks cost 80 rupees.",
+        "A cyclist travels 120 km in 4 hours; find the unit rate of 30 km per hour and use it to predict the distance in 7 hours."
+      ],
+      "misconceptionAlert": "Children often mix up additive thinking with proportional thinking, assuming that if one quantity increases by a fixed amount, the other must too. Use ratio tables to show that proportional relationships scale multiplicatively, not additively.",
+      "tryItYourself": [
+        "Find the unit rate if 5 mangoes cost 60 rupees.",
+        "A car travels 180 km in 3 hours. How far will it travel in 5 hours at the same rate?",
+        "Explain why doubling both parts of a ratio keeps the relationship the same."
+      ],
+      "whyThisMattersLater": "Unit rates become slope on graphs in Module 7, and proportional reasoning is one of the central habits needed for percentages, linear relationships, and algebraic modeling."
+    },
+    {
+      "slug": "fractions-decimals-percentages-same-idea-three-costumes",
+      "title": "Fractions, Decimals, Percentages: Same Idea, Three Costumes",
+      "order": 3,
+      "bigIdea": "Fractions, decimals, and percentages are not three separate topics — they are the same quantity written in three different costumes, and real understanding means moving between those costumes without feeling like the meaning changed.",
+      "hook": "If 1/2, 0.5, and 50% all describe the same amount, why do they look so different — and when would each version be the most useful one to use?",
+      "buildingTheIdea": "Use number lines, grids, and real contexts to show that the same point or same shaded amount can be labeled as a fraction, decimal, or percentage. Frame percentage explicitly as 'per hundred,' so 50% means 50 out of 100, which is the same as 50/100, which is the same as 0.50, which is the same as 1/2.",
+      "workedExamples": [
+        "Convert 3/4 to 0.75 and then to 75%, keeping the same point marked on a number line throughout.",
+        "Interpret 20% off as 20 out of every 100 parts removed, and connect that directly to 0.20 and 1/5."
+      ],
+      "misconceptionAlert": "Children often treat each form as needing its own isolated rules, so 0.25, 25%, and 1/4 feel unrelated. Keep returning to one shared picture or one shared number-line point so the sameness is never lost behind notation.",
+      "tryItYourself": [
+        "Write 1/5 as a decimal and as a percentage.",
+        "Which is greater: 0.6 or 55%? Explain by converting them to the same form.",
+        "Mark 40%, 0.4, and 2/5 at the same location on a number line."
+      ],
+      "whyThisMattersLater": "This may be the single most important unifying lesson in the entire curriculum, because percentages, rates, probability, and algebraic comparison all depend on being able to shift easily between these forms."
+    },
+    {
+      "slug": "algebraic-expressions",
+      "title": "Algebraic Expressions",
+      "order": 4,
+      "bigIdea": "A variable is not a mysterious symbol to fear — it is simply a placeholder for a number whose value may vary, and an algebraic expression is just a compact way of describing a numerical pattern or rule.",
+      "hook": "If every notebook costs the same amount, but you do not yet know how many notebooks someone buys, how could you write one compact rule for the total cost?",
+      "buildingTheIdea": "Connect directly to the function-machine and box-thinking from earlier modules: the box now gets a letter name, like x, but it still plays the same role. Build expressions from real situations, such as '3 rupees per mango plus 5 rupees delivery' becoming 3x + 5, and interpret them in words before simplifying anything symbolically.",
+      "workedExamples": [
+        "Translate '4 more than a number' into x + 4, and 'three times a number' into 3x.",
+        "Interpret 2x + 7 as 'double a number, then add 7,' and evaluate it when x = 5."
+      ],
+      "misconceptionAlert": "Children often think a letter in math secretly stands for one fixed hidden answer forever. Emphasize that a variable can vary: the same expression gives different outputs for different input values, just like a function machine.",
+      "tryItYourself": [
+        "Write an expression for '5 less than twice a number.'",
+        "Evaluate 3x + 2 when x = 4.",
+        "Explain in words what the expression 7n means."
+      ],
+      "whyThisMattersLater": "Expressions become equations in the next unit, and comfort with variables here makes functions, formulas, and symbolic reasoning in Modules 7 and 8 feel like a natural continuation instead of a sharp jump."
+    },
+    {
+      "slug": "equations",
+      "title": "Equations",
+      "order": 5,
+      "bigIdea": "Solving an equation means finding the value that keeps two sides in balance, and the balance-scale metaphor from earlier grades now becomes the official logic for undoing operations step by step.",
+      "hook": "If a mystery box plus 4 weighs exactly the same as 11 units on a balance, how could you figure out what the box must weigh without guessing?",
+      "buildingTheIdea": "Use the balance model explicitly: whatever is done to one side must be done to the other to preserve equality. Solve simple one-step and then multi-step equations by reversing operations in a meaningful order, always interpreting each step as keeping the equation balanced rather than 'moving numbers around.'",
+      "workedExamples": [
+        "Solve x + 4 = 11 by subtracting 4 from both sides to get x = 7.",
+        "Solve 3x = 18 by dividing both sides by 3 to get x = 6.",
+        "Solve x - 5 = 9 by adding 5 to both sides to get x = 14."
+      ],
+      "misconceptionAlert": "A common error is treating solving as a set of sign-changing tricks with no reason behind them. Keep tying every symbolic step back to the physical or imagined balance, so each operation has a visible purpose.",
+      "tryItYourself": [
+        "Solve x + 7 = 15.",
+        "Solve 5x = 35.",
+        "Explain why subtracting 3 from only one side of an equation would break the balance."
+      ],
+      "whyThisMattersLater": "Equation solving is one of the core engines of algebra, and the same undoing logic returns in Module 7's multi-step equations and in nearly every later algebra topic."
+    },
+    {
+      "slug": "geometry-area-surface-area-nets",
+      "title": "Geometry: Area, Surface Area & Nets",
+      "order": 6,
+      "bigIdea": "A three-dimensional solid can be unfolded into a flat net, and surface area is just the total area of all those outside faces added together — the same area thinking from earlier grades, now applied to 3D shapes.",
+      "hook": "If you wanted to wrap a gift box exactly, without overlaps or gaps, what would you really need to know — its volume, or how much outside surface it has?",
+      "buildingTheIdea": "Take familiar rectangular prisms and physically unfold paper models into nets so every face becomes visible at once. Find the area of each face and add them, making clear that surface area is not a new kind of measurement but a collection of ordinary area calculations on the outside of a solid.",
+      "workedExamples": [
+        "Unfold a rectangular prism net and compute the areas of all six faces before adding them.",
+        "Compare two boxes with the same volume but different surface areas to show that these are different ideas."
+      ],
+      "misconceptionAlert": "Children often confuse volume and surface area because both involve 3D objects. Repeatedly ask whether the question is about filling the inside or covering the outside, and tie each one to a physical action.",
+      "tryItYourself": [
+        "Draw or build a net for a small box and label its faces.",
+        "Find the surface area of a rectangular prism with known side lengths.",
+        "Explain why two boxes can hold the same amount but need different amounts of wrapping paper."
+      ],
+      "whyThisMattersLater": "Nets prepare students for more formal geometric reasoning in later grades, and separating inside-measure from outside-measure is essential for solids, formulas, and real-world modeling."
+    },
+    {
+      "slug": "statistics-measures-of-center-spread",
+      "title": "Statistics: Measures of Center & Spread",
+      "order": 7,
+      "bigIdea": "A dataset is more than a pile of numbers: measures of center describe a typical value, while measures of spread describe how tightly or loosely the values are clustered around it.",
+      "hook": "If two classes have the same average test score, could their results still feel very different — one tightly grouped, the other all over the place?",
+      "buildingTheIdea": "Revisit the fair-share meaning of mean from earlier grades, and place it alongside median and mode as different ways to describe the 'middle' of a dataset. Then introduce spread through range and visual comparison, so students see that a single center value never tells the whole story of the data.",
+      "workedExamples": [
+        "Find the mean, median, and mode of a small dataset and compare what each one says.",
+        "Compare two datasets with the same mean but different ranges to show how spread changes the story."
+      ],
+      "misconceptionAlert": "Children often assume the average always tells the whole truth about a dataset. Counter this by showing two sets with the same mean but very different spreads, so the need for more than one summary measure becomes obvious.",
+      "tryItYourself": [
+        "Find the mean, median, and mode of 2, 4, 4, 6, 9.",
+        "Find the range of a small dataset.",
+        "Explain why two groups can have the same mean but still be very different."
+      ],
+      "whyThisMattersLater": "This is the foundation for later statistical reasoning, where comparing groups, understanding variability, and interpreting data displays become much more important than computing a single average."
+    },
+    {
+      "slug": "intro-to-probability",
+      "title": "Intro to Probability",
+      "order": 8,
+      "bigIdea": "Probability is a numerical way to describe how likely an event is, based on the ratio of favorable outcomes to total possible outcomes, so the intuition built in earlier grades now becomes formal and measurable.",
+      "hook": "If a bag holds 3 red marbles and 1 blue marble, how could you describe your chance of picking red in a way that is more precise than just saying 'likely'?",
+      "buildingTheIdea": "Start with equally likely outcomes and count how many outcomes are favorable out of the total possible. Connect this count to fractions, decimals, and percentages, so probability feels like a direct application of the same-idea-three-costumes unit rather than a separate topic.",
+      "workedExamples": [
+        "The probability of drawing a red marble from a bag with 3 red and 1 blue is 3 out of 4, or 3/4, or 0.75, or 75%.",
+        "The probability of rolling an even number on a fair six-sided die is 3 out of 6, which simplifies to 1/2."
+      ],
+      "misconceptionAlert": "Children often confuse what is likely with what must happen next, especially after short streaks. Reinforce that probability describes long-run chance, not a guarantee for the very next trial.",
+      "tryItYourself": [
+        "Find the probability of flipping heads on a fair coin.",
+        "Find the probability of rolling a number greater than 4 on a fair die.",
+        "Explain how 25% probability and 1/4 probability describe the same chance."
+      ],
+      "whyThisMattersLater": "Probability becomes richer in Module 7 with compound events and simulation, but the central idea never changes: count the favorable outcomes, compare them to the total, and interpret that ratio carefully."
+    }
+  ]
+}

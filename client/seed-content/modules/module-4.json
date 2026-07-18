@@ -1,0 +1,164 @@
+{
+  "slug": "module-4",
+  "title": "Precision and Structure",
+  "order": 4,
+  "theme": "The theme is handling bigger, messier numbers with control: estimation, multi-digit operations, and the hidden structure underneath numbers (factors, multiples, primes).",
+  "description": "A complete curriculum in eight units.",
+  "units": [
+    {
+      "slug": "big-numbers-rounding-estimation",
+      "title": "Big Numbers, Rounding & Estimation",
+      "order": 1,
+      "bigIdea": "Estimation is a genuine mathematical skill in its own right — a quick, deliberately approximate answer used to sanity-check a precise one, not math you do when you're too lazy for the real answer.",
+      "hook": "Before you ever calculate 387 × 6 exactly, can you tell roughly how big the answer should be — and why would knowing that in advance actually help you?",
+      "buildingTheIdea": "Practice rounding to friendly numbers before any calculation (387 ≈ 400, so 387 × 6 is roughly 400 × 6 = 2,400), and then use that estimate to check whether the precise, calculated answer lands in the right neighborhood. Frame estimation explicitly as a built-in error-detector, not a substitute for the real calculation.",
+      "workedExamples": [
+        "Estimate 4,872 + 3,196 by rounding to the nearest thousand (5,000 + 3,000 = 8,000) before computing precisely.",
+        "Catch a deliberately wrong answer: someone claims 387 × 6 = 232. The estimate (2,400) instantly reveals this is far off."
+      ],
+      "misconceptionAlert": "Children often treat estimation as the real answer, just sloppier, rather than a separate checking tool — and stop bothering to compute precisely once they have an estimate. Reinforce that estimation and precise calculation are two different jobs, working together.",
+      "tryItYourself": [
+        "Estimate 6,148 − 2,903 by rounding, then calculate precisely, and check that your estimate was reasonable.",
+        "Two students compute 412 × 7. One gets 2,884, the other gets 9,884. Use estimation alone to spot which answer is obviously wrong.",
+        "Round 7,346 to the nearest thousand, and explain your choice using a number line."
+      ],
+      "whyThisMattersLater": "This estimate-then-verify habit is exactly the strategy used to sanity-check algebraic solutions in Modules 6-8 (does this answer for x even make sense given the problem?)."
+    },
+    {
+      "slug": "multi-digit-multiplication-division",
+      "title": "Multi-Digit Multiplication & Division",
+      "order": 2,
+      "bigIdea": "Multiplying big numbers is the array and distributive idea from Module 3, scaled up. Breaking a hard multiplication into easy chunks (the area model) shows exactly why the standard algorithm works, instead of it feeling like a memorized dance of digits.",
+      "hook": "How could you multiply 23 × 14 by breaking it into four much easier multiplications you already know?",
+      "buildingTheIdea": "Draw a rectangle split into a 2 × 2 grid representing the tens and ones of each factor (23 = 20 + 3, 14 = 10 + 4). Compute each of the four smaller area pieces (20 × 10, 20 × 4, 3 × 10, 3 × 4) and add them — visually, this is 23 × 14, and it is the exact same logic as the standard algorithm, just spread out instead of compressed into one tight column.",
+      "workedExamples": [
+        "23 × 14 via the area model: 200 + 80 + 30 + 12 = 322.",
+        "156 ÷ 12 reframed as how many groups of 12 fit into 156, chunked using friendly multiples: 12 × 10 = 120 (leaving 36), then 12 × 3 = 36 (total 13)."
+      ],
+      "misconceptionAlert": "Children who only learn the compressed standard algorithm often have no idea what they are actually computing, and make silent place-value errors, like forgetting a zero placeholder. The area model directly prevents this, because every piece is visible and clearly place-value-tagged.",
+      "tryItYourself": [
+        "Multiply 34 × 26 using the area model, labeling each of the four pieces.",
+        "Divide 192 by 16 using friendly chunks of 16 that you already know.",
+        "Explain, using the area model, exactly where the 322 in 23 × 14 comes from."
+      ],
+      "whyThisMattersLater": "The area model used here is the exact same visual used to multiply algebraic binomials, such as (x + 2)(x + 5), in Module 8 or Algebra I — a child fluent in this model will find that topic startlingly familiar instead of frightening."
+    },
+    {
+      "slug": "fractions-deepen",
+      "title": "Fractions Deepen",
+      "order": 3,
+      "bigIdea": "Two fractions that look completely different can be exactly the same number — and finding a shared denominator is not an arbitrary rule, it is just re-measuring two fractions with the same-sized ruler so they can finally be compared or combined honestly.",
+      "hook": "Which is more cake: 2/3 of one cake, or 5/8 of an identical cake? Can you even compare these directly, as written?",
+      "buildingTheIdea": "Revisit Module 3's folding-strip equivalence, now formalizing it: multiplying the top and bottom of a fraction by the same number is just re-cutting the same fraction into smaller, more numerous pieces — the amount never changes, only how finely it's sliced. Use this to find a common slice size (denominator) before adding or subtracting unlike fractions.",
+      "workedExamples": [
+        "Find equivalent fractions for 1/2 and 1/3 with a shared denominator (3/6 and 2/6) before adding them.",
+        "Add 1/4 + 1/6 by converting both to twelfths first (3/12 + 2/12 = 5/12), checking the result against a fraction-strip drawing."
+      ],
+      "misconceptionAlert": "Children often try to add fractions by adding the numerators and denominators straight across (1/2 + 1/3 = 2/5). Directly counter this with a fraction-strip picture, showing why this gives a nonsensical, too-small result compared to what is actually being combined.",
+      "tryItYourself": [
+        "Order 3/4, 5/6, and 2/3 from smallest to largest by finding a common denominator.",
+        "Add 1/3 + 1/4 using a common denominator, and check your answer against a drawn picture.",
+        "Why is adding numerators and denominators straight across the wrong approach? Use a picture to explain."
+      ],
+      "whyThisMattersLater": "This exact same-value, different slice-size reasoning becomes the entire justification for converting between fractions, decimals, and percentages in Module 6."
+    },
+    {
+      "slug": "decimals-are-fractions-in-disguise",
+      "title": "Decimals Are Fractions in Disguise",
+      "order": 4,
+      "bigIdea": "A decimal is not a new kind of number — it is a fraction with a denominator of 10, 100, or 1,000, written in a faster, place-value-based costume. Once you see the costume, decimals stop feeling separate from fractions.",
+      "hook": "If 0.5 and 1/2 sit at the exact same point on a number line, why do they look like two completely different things on paper?",
+      "buildingTheIdea": "Extend the place-value bundles from earlier grades below the decimal point: tenths are 1/10-sized bundles, hundredths are 1/100-sized bundles. Place decimal and fraction equivalents on the same number line to show they are literally the same point, just two different costumes for it.",
+      "workedExamples": [
+        "Convert 3/10 to 0.3, and place both on a shared number line.",
+        "Convert 0.75 to a fraction by recognizing 75/100 simplifies to 3/4.",
+        "Compare 0.4 and 0.25 by aligning both on a shared tenths/hundredths number line."
+      ],
+      "misconceptionAlert": "Children very reliably think 0.25 is bigger than 0.4, because 25 is bigger than 4, ignoring that the place values represent different-sized pieces. Counter directly by aligning both numbers on a shared decimal number line.",
+      "tryItYourself": [
+        "Write 0.6 as a fraction, and place it on a number line alongside 3/5.",
+        "Determine which is larger, 0.45 or 0.5, and explain using place value, not digit count.",
+        "Why does 0.4 land further right than 0.25 on a number line, even though 25 looks like a bigger number than 4?"
+      ],
+      "whyThisMattersLater": "This fraction-decimal equivalence is one full third of Module 6's central same idea, three costumes unit, and decimal fluency here directly prepares for measurement and scientific notation later."
+    },
+    {
+      "slug": "angles-geometric-reasoning",
+      "title": "Angles & Geometric Reasoning",
+      "order": 5,
+      "bigIdea": "An angle measures how much something has turned or opened — not the length of the lines drawn, which is a remarkably common confusion — and this amount of turning connects directly back to the clock-face turning explored in earlier grades.",
+      "hook": "Draw two angles with the exact same opening, but make one with short lines and one with long lines. Are the angles the same size, or is the one with longer lines actually bigger?",
+      "buildingTheIdea": "Physically demonstrate angle as rotation, using two connected straws or sticks pivoting at one end, opening them to different amounts regardless of stick length. Introduce a protractor as a tool for precisely measuring this amount of turning, and classify acute, right, obtuse, and straight angles by comparing them to the felt benchmark of a right angle — a square corner.",
+      "workedExamples": [
+        "Measure several drawn angles with a protractor, and classify each as acute, right, or obtuse.",
+        "Draw two angles of the exact same measure using rulers of very different lengths, proving that ray length does not affect angle size."
+      ],
+      "misconceptionAlert": "Children commonly assume an angle drawn with longer rays is automatically bigger than one drawn with short rays. Directly disprove this with the matched-rotation, different-length-stick demonstration above.",
+      "tryItYourself": [
+        "Estimate whether a given drawn angle is acute, right, or obtuse — then check with a protractor.",
+        "Draw a 45° angle and a 90° angle using different ray lengths, and confirm with a protractor that ray length did not change the measurement.",
+        "Explain in your own words why a right angle is always 90°, no matter how long its two rays are drawn."
+      ],
+      "whyThisMattersLater": "This rotation, not length understanding of angle becomes essential for triangle angle-sum reasoning in Module 7, and for the geometric rotations explored in Module 8."
+    },
+    {
+      "slug": "factors-multiples-hidden-structure",
+      "title": "Factors, Multiples & the Hidden Structure of Numbers",
+      "order": 6,
+      "bigIdea": "Every whole number has a hidden recipe of smaller numbers that multiply together to build it, and prime numbers are the numbers with no recipe at all besides themselves and 1. Discovering this recipe — factoring — is like finding a number's DNA.",
+      "hook": "Can every number be built by multiplying two smaller whole numbers together — or are there some numbers that refuse to break apart that way?",
+      "buildingTheIdea": "Build numbers physically as rectangular arrays in every possible whole-number arrangement (12 can be 1 × 12, 2 × 6, or 3 × 4 — three different rectangles). Numbers that can only form a single 1 × n rectangle (like 7, 11, or 13) are introduced as primes — special, not boring, because they are the unbreakable building blocks of every other number.",
+      "workedExamples": [
+        "Find all factor pairs of 24 by building every possible rectangle.",
+        "Determine if 17 is prime by trying and failing to build any rectangle besides 1 × 17.",
+        "Find the least common multiple (LCM) of 4 and 6 by listing multiples of each until one is shared (12)."
+      ],
+      "misconceptionAlert": "Children often think prime numbers are rare or unimportant. Reframe them explicitly as the unbreakable atoms every other number is built from — multiplying primes together can generate literally every whole number that exists.",
+      "tryItYourself": [
+        "Find all the factors of 36 by building rectangles.",
+        "Find the greatest common factor (GCF) of 18 and 24 by comparing their factor lists.",
+        "Is 29 prime? Show your reasoning by trying to build rectangles."
+      ],
+      "whyThisMattersLater": "This factor and multiple structure is exactly what is needed to find common denominators efficiently when adding fractions in Module 5, and the unbreakable building block idea of primes reappears almost unchanged when factoring algebraic expressions in Module 8 or Algebra I."
+    },
+    {
+      "slug": "symmetry-transformations",
+      "title": "Symmetry & Transformations",
+      "order": 7,
+      "bigIdea": "Shapes can be moved, flipped, or turned without changing what they are. Transformations are the formal version of the fold-and-match intuition from earlier grades.",
+      "hook": "If you slide, flip, or turn a shape, is it still the same shape or a different one?",
+      "buildingTheIdea": "Use folding, sliding, and rotating to show that a shape's essential properties remain the same even when its orientation or position changes. Compare the original and transformed shapes to see which features stay fixed and which change.",
+      "workedExamples": [
+        "Reflect a shape across a line and compare corresponding points.",
+        "Rotate a shape 90 degrees and describe what changed and what stayed the same.",
+        "Slide a shape across a grid and verify that all side lengths and angles remain unchanged."
+      ],
+      "misconceptionAlert": "Children often confuse a changed position with a changed shape. Emphasize that translation, reflection, and rotation preserve the shape's defining properties even though the picture may look different.",
+      "tryItYourself": [
+        "Draw a shape and then reflect it over a line.",
+        "Rotate a paper shape a quarter turn and describe the result.",
+        "Find an object in the room that looks the same after a turn or flip, and explain why."
+      ],
+      "whyThisMattersLater": "Formal transformations in higher geometry and similarity reasoning in later modules depend on this early understanding that shape identity survives motion."
+    },
+    {
+      "slug": "data-graphs-average",
+      "title": "Data, Graphs & Average",
+      "order": 8,
+      "bigIdea": "The mean is a way of sharing out the total equally, so everyone gets a fair share. Average is not a magical new number — it is the balance point of a dataset.",
+      "hook": "If a group of friends has a total of 20 mangoes shared among 5 people, what is each person's fair share?",
+      "buildingTheIdea": "Use the idea of fair sharing to compute the mean by balancing the total across all data points. Connect this to graph reading by showing how the average can summarize a set of values, while charts and graphs help reveal patterns that a single number cannot.",
+      "workedExamples": [
+        "Find the mean of 2, 4, 6, and 8 by adding to 20 and sharing equally among 4 values.",
+        "Use a line graph or bar graph to compare two small datasets and discuss their average values."
+      ],
+      "misconceptionAlert": "Children often think average means the middle number in every case, or that it must always be one of the actual data values. Show that mean is a fair share of the total, which may not be present in the list itself.",
+      "tryItYourself": [
+        "Find the mean of 3, 5, 7, and 9.",
+        "Create a small dataset of test scores and compute the average.",
+        "Explain why the mean can be a useful summary even when no value in the list is exactly the mean."
+      ],
+      "whyThisMattersLater": "Mean as fair share returns in statistics throughout later modules, where it becomes one of several tools for describing center and spread."
+    }
+  ]
+}

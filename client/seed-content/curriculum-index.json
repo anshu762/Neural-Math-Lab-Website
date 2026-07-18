@@ -1,0 +1,56 @@
+{
+  "curriculumSlug": "ngo-math-website",
+  "title": "Beyond Rote: A Mathematics Curriculum for Modules 1-8",
+  "version": 1,
+  "sourceDocument": "NGO-Math-Website-Math-Content.docx",
+  "modules": [
+    {
+      "slug": "module-1",
+      "title": "Numbers Become Real",
+      "order": 1,
+      "file": "./modules/module-1.json"
+    },
+    {
+      "slug": "module-2",
+      "title": "Numbers Get Powerful",
+      "order": 2,
+      "file": "./modules/module-2.json"
+    },
+    {
+      "slug": "module-3",
+      "title": "Multiplication's Universe",
+      "order": 3,
+      "file": "./modules/module-3.json"
+    },
+    {
+      "slug": "module-4",
+      "title": "Precision and Structure",
+      "order": 4,
+      "file": "./modules/module-4.json"
+    },
+    {
+      "slug": "module-5",
+      "title": "The Great Unification Begins",
+      "order": 5,
+      "file": "./modules/module-5.json"
+    },
+    {
+      "slug": "module-6",
+      "title": "Crossing Into Algebra",
+      "order": 6,
+      "file": "./modules/module-6.json"
+    },
+    {
+      "slug": "module-7",
+      "title": "Reasoning Gets Formal",
+      "order": 7,
+      "file": "./modules/module-7.json"
+    },
+    {
+      "slug": "module-8",
+      "title": "The Bridge to High School Algebra",
+      "order": 8,
+      "file": "./modules/module-8.json"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "module-8",
+  "title": "The Bridge to High School Algebra",
+  "order": 8,
+  "theme": "The theme is functions, systems, and the real number line in full — everything a child needs to walk confidently into Algebra I.",
+  "description": "A complete curriculum in seven units.",
+  "units": [
+    {
+      "slug": "the-real-number-system",
+      "title": "The Real Number System",
+      "order": 1,
+      "bigIdea": "The real number system includes all the rational numbers students already know, plus numbers like square roots that do not come from simple fractions, and all of them live together on one continuous number line.",
+      "hook": "If fractions and decimals already fill the spaces between whole numbers, where does a number like square root of 2 actually come from, and why do we need a new category for it?",
+      "buildingTheIdea": "Begin with the unified rational-number line from Module 7 and then introduce lengths that cannot be written as exact fractions, using square root of 2 as the first important example. Show that irrational numbers are not imaginary inventions but real distances and locations on the same number line, extending the idea that number is bigger than any one notation system.",
+      "workedExamples": [
+        "Locate square root of 2 on a number line by connecting it to the diagonal of a 1-by-1 square.",
+        "Sort numbers into rational and irrational categories, showing that fractions, terminating decimals, and repeating decimals are rational while square roots like square root of 2 are not.",
+        "Compare rational approximations of an irrational number to its exact symbolic form."
+      ],
+      "misconceptionAlert": "Children often think irrational numbers are somehow less real because they cannot be written neatly as fractions or finished decimals. Keep tying them to concrete geometric lengths so they are felt as actual quantities, not abstract oddities.",
+      "tryItYourself": [
+        "Place square root of 2 approximately on a number line.",
+        "Decide whether 0.75, 1/3, and square root of 2 are rational or irrational.",
+        "Explain why a non-terminating, non-repeating decimal cannot be written as a fraction."
+      ],
+      "whyThisMattersLater": "This is the full-number view needed for high school algebra, where radicals, decimals, and fractions all appear together and must be treated as members of one connected system."
+    },
+    {
+      "slug": "linear-equations-and-functions",
+      "title": "Linear Equations & Functions",
+      "order": 2,
+      "bigIdea": "A linear equation or function describes a constant rate of change, and this is the grammar of change: it tells how one quantity changes as another changes, both numerically and on a graph.",
+      "hook": "If a taxi ride costs a fixed starting fee plus the same charge for every kilometer, how could one rule describe the whole trip cost for any distance at all?",
+      "buildingTheIdea": "Connect proportional relationships from Module 7 to the more general linear form that includes a starting value as well as a constant rate. Build tables, graphs, and verbal stories together so students see that slope captures the per-step change and the intercept captures the starting amount when the input is zero.",
+      "workedExamples": [
+        "Model a taxi fare with a rule like cost = starting fee + rate times distance, and connect that story to a straight-line graph.",
+        "Compare a proportional line through the origin with a non-proportional linear line that has a nonzero starting value.",
+        "Interpret slope as the change in y for each 1-step change in x."
+      ],
+      "misconceptionAlert": "Students often think every linear relationship must pass through the origin because their first graphing work focused on proportional relationships. Directly compare lines with and without a starting value so the intercept becomes meaningful instead of feeling like an exception.",
+      "tryItYourself": [
+        "Write a linear rule for a context with a starting fee and a constant per-item cost.",
+        "Identify the slope and starting value from a table or graph.",
+        "Explain in words what the slope means in a real-world situation."
+      ],
+      "whyThisMattersLater": "Linear functions are the core language of first-year algebra, and understanding them as stories of constant change prepares students for systems, graphing, and modeling far beyond this module."
+    },
+    {
+      "slug": "systems-of-equations",
+      "title": "Systems of Equations",
+      "order": 3,
+      "bigIdea": "A system of equations is two different mathematical stories that share one solution, and solving the system means finding the single point where both stories are true at the same time.",
+      "hook": "If two different phone plans charge in different ways, how could you figure out the exact usage amount where they cost the same?",
+      "buildingTheIdea": "Frame each equation as a separate relationship and then ask where both can be satisfied together. Use tables and graphs first so students can see a shared solution as an intersection point, then connect that visual meaning to symbolic solving methods.",
+      "workedExamples": [
+        "Graph two linear equations and identify their intersection point as the shared solution.",
+        "Use a real-world comparison, like two pricing plans, to interpret the system's solution as the point where the costs match.",
+        "Check a proposed solution by substituting it into both equations."
+      ],
+      "misconceptionAlert": "Children may think solving each equation separately is enough, forgetting that a system demands one answer that works for both. Reinforce that a valid solution must satisfy both equations simultaneously, not just one of them.",
+      "tryItYourself": [
+        "Find the intersection point of two simple graphed lines.",
+        "Check whether a given ordered pair solves both equations in a system.",
+        "Explain in words what the solution to a system means in a real context."
+      ],
+      "whyThisMattersLater": "Systems are a major doorway into algebraic modeling, because many real problems are really about where two changing quantities become equal."
+    },
+    {
+      "slug": "exponents-and-scientific-notation",
+      "title": "Exponents & Scientific Notation",
+      "order": 4,
+      "bigIdea": "Exponents are repeated multiplication built on the same place-value structure students have known for years, and scientific notation is place value taken to its logical extreme for writing very large and very small numbers efficiently.",
+      "hook": "If writing out every zero in a huge number is clumsy, is there a shorter way to show exactly how many times a number has been multiplied by 10?",
+      "buildingTheIdea": "Begin with powers of ten as repeated bundling: 10, 100, 1000, and so on, connecting directly to the place-value thread running from the earliest modules. Then extend that idea to scientific notation, showing that shifting the decimal point reflects multiplying or dividing by powers of ten, not a random formatting trick.",
+      "workedExamples": [
+        "Write powers of ten in exponent form and connect each one to a place-value shift.",
+        "Convert a very large number into scientific notation by identifying one leading digit and counting the power of ten needed.",
+        "Convert a very small decimal into scientific notation by tracking how far the decimal point moves."
+      ],
+      "misconceptionAlert": "Students often treat exponents as a decorative extra symbol rather than a compact meaning about repeated multiplication and place value. Keep returning to powers of ten as visible decimal shifts so the notation never floats free of meaning.",
+      "tryItYourself": [
+        "Write 1000 and 1000000 using exponents.",
+        "Convert a large whole number into scientific notation.",
+        "Explain why moving the decimal point is really about multiplying or dividing by powers of ten."
+      ],
+      "whyThisMattersLater": "Exponents and scientific notation are essential tools for algebra and science, and they grow directly out of the place-value logic introduced in the earliest grades and extended through decimals in Module 5."
+    },
+    {
+      "slug": "geometry-pythagorean-theorem-congruence-similarity",
+      "title": "Geometry: the Pythagorean Theorem (derived, not given), Congruence & Similarity",
+      "order": 5,
+      "bigIdea": "Geometric relationships are strongest when they are derived and justified: the Pythagorean Theorem can be built from area reasoning, and congruence and similarity show how shapes can be the same in structure even when their size or position changes.",
+      "hook": "In a right triangle, is there a reliable way to predict the diagonal side from the other two sides without measuring it directly?",
+      "buildingTheIdea": "Derive the Pythagorean Theorem through area reasoning instead of presenting it as a mysterious formula, connecting it to the curriculum's long-running theme that formulas come from structure. Then study congruence and similarity through matching, scaling, and transformations so students distinguish 'same shape and size' from 'same shape, different size.'",
+      "workedExamples": [
+        "Use area squares on the sides of a right triangle to show why the Pythagorean relationship works.",
+        "Classify pairs of figures as congruent or similar by comparing angles, side lengths, and scale.",
+        "Use scaling to explain why similar shapes preserve shape but not absolute size."
+      ],
+      "misconceptionAlert": "Students often memorize the Pythagorean Theorem and similarity rules as isolated facts with no visible source. Derivation and visual comparison help replace rule-recall with structural reasoning.",
+      "tryItYourself": [
+        "Test the Pythagorean relationship on a simple right triangle.",
+        "Decide whether two given figures are congruent, similar, or neither.",
+        "Explain the difference between same shape and same size."
+      ],
+      "whyThisMattersLater": "This unit prepares students for formal geometry, trigonometry, and proof-based mathematics by making justification more important than memorization."
+    },
+    {
+      "slug": "functions-input-output-machines-linear-vs-nonlinear",
+      "title": "Functions: Input/Output Machines, Linear vs. Nonlinear",
+      "order": 6,
+      "bigIdea": "A function is a rule that matches each input to exactly one output, and comparing linear with nonlinear functions helps students see that not every pattern of change stays constant.",
+      "hook": "If one machine always adds 3 and another doubles then adds 1, how can you tell what kind of rule each machine follows just by looking at its outputs?",
+      "buildingTheIdea": "Return to the early function-machine metaphor and now formalize it: a function is a dependable input-output rule, not just a guessing game. Compare linear patterns, which change by equal amounts, with nonlinear ones, which do not, across tables, graphs, and verbal descriptions.",
+      "workedExamples": [
+        "Build an input-output table for a linear rule and show the constant difference in outputs.",
+        "Contrast that with a nonlinear pattern whose outputs do not change by a constant amount.",
+        "Use a graph to show that linear functions make straight lines while nonlinear functions do not."
+      ],
+      "misconceptionAlert": "Students may think any table with ordered pairs is automatically linear. Keep checking for constant rate of change, so they learn that straightness and equal step-change are the defining features of linearity.",
+      "tryItYourself": [
+        "Create a table for a linear rule and describe its constant change.",
+        "Compare a linear and a nonlinear set of outputs.",
+        "Explain what makes a function linear in words, not just symbols."
+      ],
+      "whyThisMattersLater": "This distinction between linear and nonlinear is one of the central organizing ideas of algebra, because later mathematics is largely about recognizing what kind of change a rule creates."
+    },
+    {
+      "slug": "statistics-bivariate-data-and-scatter-plots",
+      "title": "Statistics: Bivariate Data & Scatter Plots",
+      "order": 7,
+      "bigIdea": "Bivariate data studies the relationship between two changing quantities at once, and a scatter plot helps students see patterns, trends, and associations rather than just isolated numbers.",
+      "hook": "If you record both height and arm span for many students, would the two measurements seem related — and how could a graph help you see that quickly?",
+      "buildingTheIdea": "Move from one-variable data to paired data, plotting each pair as one point on a coordinate plane. Focus on noticing overall trends, clusters, and whether points seem to rise together, fall together, or show no clear relationship, using the scatter plot as a visual thinking tool rather than just a drawing exercise.",
+      "workedExamples": [
+        "Plot paired measurements such as height and arm span to see whether the points suggest a positive association.",
+        "Compare scatter plots with clear trends to ones with no visible relationship.",
+        "Describe a pattern in words before attempting any formal line of best fit."
+      ],
+      "misconceptionAlert": "Students often focus on individual points and miss the larger pattern the graph is showing. Keep asking what the cloud of points as a whole suggests, not just where one point happens to sit.",
+      "tryItYourself": [
+        "Create a scatter plot from a small paired dataset.",
+        "Describe whether the relationship looks positive, negative, or unclear.",
+        "Explain what a scatter plot can show that a simple list of number pairs does not show as clearly."
+      ],
+      "whyThisMattersLater": "Scatter plots prepare students for more advanced data analysis and modeling, where the main question is often not a single answer but the strength and shape of a relationship between two variables."
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "slug": "module-5",
+  "title": "The Great Unification Begins",
+  "order": 5,
+  "theme": "The theme is realizing fractions, decimals, ratios, and even algebra are all expressions of the same underlying ideas.",
+  "description": "A complete curriculum in eight units.",
+  "units": [
+    {
+      "slug": "place-value-across-decimals",
+      "title": "Place Value Across Decimals",
+      "order": 1,
+      "bigIdea": "The base-ten bundling pattern does not stop at the decimal point — it simply runs in reverse below it. Each place to the right is one-tenth the size of the place before it, so a digit's value still depends entirely on its position.",
+      "hook": "If 10 ones bundle into 1 ten, what happens if you go the other direction — what is one-tenth of a single 'one'?",
+      "buildingTheIdea": "Extend base-ten blocks below the 'ones' cube: the same cube that represented '1' before now gets sliced into 10 equal flat pieces — each is 'one tenth.' Slice one of those again into 10 strips — each is 'one hundredth.' Build 3.45 physically: 3 ones-cubes, 4 tenths-pieces, 5 hundredths-strips. The rule 'ones, tenths, hundredths' is the same bundling pattern as 'hundreds, tens, ones,' just continuing past the decimal point instead of stopping there.",
+      "workedExamples": [
+        "Build 2.34 in expanded form: 2 + 0.3 + 0.04.",
+        "Compare 0.7 and 0.65 by aligning decimal points and comparing tenths first: 7 tenths beats 6 tenths, regardless of the extra digit in 0.65.",
+        "Round 4.378 to the nearest tenth by checking which tenth-mark it's closest to on a number line."
+      ],
+      "misconceptionAlert": "Children often assume more digits after the decimal point automatically means a bigger number — thinking 0.65 > 0.7 because '65' looks bigger than '7.' Counter directly by aligning decimal points vertically and comparing place by place from the left, exactly as with whole numbers.",
+      "tryItYourself": [
+        "Compare 0.8 and 0.75, explaining with place value.",
+        "Build 1.23 using base-ten blocks or a drawing.",
+        "Round 6.84 to the nearest whole number."
+      ],
+      "whyThisMattersLater": "This 'same rule, running in both directions from the decimal point' idea is exactly what makes scientific notation in Module 8 feel like a continuation of something familiar, instead of a brand-new concept."
+    },
+    {
+      "slug": "operations-with-fractions",
+      "title": "Operations with Fractions",
+      "order": 2,
+      "bigIdea": "Adding or subtracting fractions genuinely requires the same-sized 'ruler' (denominator) for both fractions, and multiplying or dividing fractions can be reasoned through visually, rather than recalled as a disconnected 'flip and multiply' rule.",
+      "hook": "Why can you add 2 apples + 3 apples easily, but can't simply add 1/2 + 1/3 by just adding the tops and bottoms?",
+      "buildingTheIdea": "Revisit common-denominator reasoning for addition and subtraction. For multiplication, use an area model: 1/2 × 1/3 is literally 'half of a third,' shown by shading a third of a rectangle, then shading half of that shaded region — the overlap is the answer (1/6). For division, use the 'how many groups fit' idea: 1/2 ÷ 1/4 asks 'how many quarters fit into a half,' answered visually by overlaying fraction strips (the answer is 2).",
+      "workedExamples": [
+        "1/2 × 1/3 visualized as overlapping shaded regions = 1/6.",
+        "3/4 ÷ 1/2 reasoned as 'how many halves fit in three-quarters,' using fraction strips = 1.5.",
+        "2/3 + 1/4 using a common denominator: 8/12 + 3/12 = 11/12."
+      ],
+      "misconceptionAlert": "Children often apply the 'flip and multiply' division rule mechanically, with no idea why it works, and confuse it with the multiplication rule. Ground every fraction-division problem in the 'how many groups fit' picture first, so the shortcut procedure is never the only thing they know.",
+      "tryItYourself": [
+        "Find 2/5 × 1/2 using an area model.",
+        "Find 1/3 ÷ 1/6 using the 'how many groups fit' reasoning.",
+        "Add 3/8 + 1/4 using a common denominator."
+      ],
+      "whyThisMattersLater": "The area-model reasoning for multiplying fractions becomes literally the same model used to multiply algebraic expressions like (x+1)(x+2) in Module 8, and the 'how many groups fit' idea for division previews unit rates in Module 6."
+    },
+    {
+      "slug": "operations-with-decimals",
+      "title": "Operations with Decimals",
+      "order": 3,
+      "bigIdea": "Decimal operations follow exactly the same logic as whole-number operations — you simply have to track where the decimal point sits, since it marks the boundary of the 'ones' bundle size.",
+      "hook": "If 23 + 45 is easy, why does 2.3 + 4.5 ever feel harder — what's actually different about it?",
+      "buildingTheIdea": "Align decimal points vertically, just as place values are aligned in whole-number addition, so that tenths add to tenths and hundredths add to hundredths. For multiplication, connect to fraction multiplication from the prior unit: 0.2 × 0.3 is the same as 2/10 × 3/10 = 6/100 = 0.06 — so the 'where does the decimal point go' rule has a real reason behind it, not just a digit-counting trick.",
+      "workedExamples": [
+        "2.35 + 1.7, aligned by decimal point, carrying as needed exactly like whole numbers.",
+        "0.4 × 0.2, reasoned through the fraction connection: 4/10 × 2/10 = 8/100 = 0.08.",
+        "3.6 ÷ 0.4, reasoned as 'how many 0.4s fit into 3.6,' by multiplying both numbers by 10 to make it 36 ÷ 4 = 9 without changing the answer."
+      ],
+      "misconceptionAlert": "Children often miscount decimal places when multiplying, or add mismatched-length decimals straight from the right edge as if they were whole numbers (e.g., adding 3.4 + 1.25 incorrectly). Insist on lining up by the decimal point, adding placeholder zeros when helpful: 3.40 + 1.25.",
+      "tryItYourself": [
+        "Add 5.6 + 2.45, aligning carefully.",
+        "Multiply 0.3 × 0.5, and check your answer against the fraction equivalent.",
+        "Divide 4.8 by 0.6, explaining your reasoning."
+      ],
+      "whyThisMattersLater": "This careful place-tracking is essential for unit conversions and scientific calculations throughout Modules 6–8, and the 'multiply both by the same power of ten' division trick directly previews solving equations by scaling in algebra."
+    },
+    {
+      "slug": "ratio-and-proportional-thinking-begins",
+      "title": "Ratio & Proportional Thinking Begins",
+      "order": 4,
+      "bigIdea": "A ratio compares two quantities by their relationship, not their raw difference — and recognizing when two situations share 'the same relationship,' even with totally different numbers, is the single most powerful new idea this year.",
+      "hook": "A small batch of juice mix uses 2 cups of concentrate and 3 cups of water. If you wanted a much bigger batch that tastes exactly the same, would you add the same extra amount of water as concentrate — or something else?",
+      "buildingTheIdea": "Build physical scaled-up batches (2:3 becomes 4:6, then 6:9) and discuss why these all 'taste the same' even though the actual amounts differ — the relationship between the two quantities, not their size, is what's preserved. Connect explicitly to equivalent fractions: 2:3 is really 'the same kind of split' as 4:6, just like 1/2 = 2/4.",
+      "workedExamples": [
+        "Scale a recipe ratio of 2:3 up to a tripled batch (6:9), and verify it's still the same 'taste ratio.'",
+        "Given a class ratio of boys to girls of 3:4 and a total of 28 students, recognize that 28 must split into 7 equal 'ratio units' of 4 students each (3 units boys = 12, 4 units girls = 16)."
+      ],
+      "misconceptionAlert": "Children often think doubling one quantity in a ratio means simply adding some fixed amount to the other, rather than scaling both proportionally. Use physical scaled batches to directly disprove this.",
+      "tryItYourself": [
+        "Scale a 3:5 ratio up to a total of 40, by finding how many 'ratio units' fit.",
+        "Determine if 4:6 and 6:9 represent the same ratio, and explain how you checked.",
+        "A fruit punch recipe uses a 1:4 ratio of juice to water. How much juice and water are needed for a batch totaling 20 cups?"
+      ],
+      "whyThisMattersLater": "This exact ratio reasoning becomes formal rates and proportional relationships in Module 6, and graphing proportional relationships as straight lines through the origin in Module 7."
+    },
+    {
+      "slug": "volume-and-3d-geometry",
+      "title": "Volume & 3D Geometry",
+      "order": 5,
+      "bigIdea": "Volume is simply 'how many unit cubes fit inside a solid' — the same counting idea as area's 'how many unit squares fit,' just one dimension up — and the length × width × height formula is a fast way to count those cubes using the same array logic as multiplication.",
+      "hook": "If area tells you how many flat unit squares cover a surface, what would tell you how many unit cubes fill up a box?",
+      "buildingTheIdea": "Physically build a small rectangular box out of unit cubes (e.g., 3 × 2 × 2), and count the cubes layer by layer, discovering each layer is itself an 'area' (3 × 2 = 6 cubes per layer), with 2 layers stacked, giving 12 total — directly connecting volume to the area idea from Module 3, stacked one dimension higher.",
+      "workedExamples": [
+        "Build a 4 × 3 × 2 box from unit cubes; count layer by layer (4 × 3 = 12 per layer, ×2 layers = 24 total).",
+        "Find the volume of an irregular solid made of two combined rectangular blocks, by finding each block's volume and adding."
+      ],
+      "misconceptionAlert": "Children sometimes think volume is found by adding length + width + height rather than multiplying, confusing it with perimeter-style thinking. Ground every volume problem in physically counting layers of cubes before ever applying the formula as a shortcut.",
+      "tryItYourself": [
+        "Build and find the volume of a 5 × 2 × 3 box using unit cubes.",
+        "Find the volume of an L-shaped solid made of two combined rectangular blocks.",
+        "Explain in your own words why volume is multiplied, not added."
+      ],
+      "whyThisMattersLater": "This layer-by-layer counting becomes the basis for surface area in Module 6 (unfolding the same solid into flat nets), and is the direct three-dimensional extension of the array-and-area reasoning threaded through every earlier grade."
+    },
+    {
+      "slug": "the-coordinate-plane",
+      "title": "The Coordinate Plane",
+      "order": 6,
+      "bigIdea": "A coordinate pair is just an address — two numbers that tell you exactly where a point lives by how far it is from two reference lines, exactly like giving directions using 'blocks across, blocks up.'",
+      "hook": "If you wanted to tell a friend exactly where to find a specific point on a giant grid without pointing at it, what two pieces of information would be enough?",
+      "buildingTheIdea": "Build a large floor or paper grid, and physically walk to points by following 'go right 3, then up 2' instructions, before any formal (x,y) notation appears — the order (across first, then up) becomes a felt habit through movement, not an arbitrary memorized rule.",
+      "workedExamples": [
+        "Plot the point (3,2) by walking 3 right and 2 up from the origin.",
+        "Plot several points and connect them in order to reveal a simple shape.",
+        "Identify the coordinates of a few given points already plotted on a grid."
+      ],
+      "misconceptionAlert": "Children frequently reverse the order, going up first and then across, especially once the physical 'right, then up' habit fades into pure notation. Reinforce 'x comes first, just like reading left to right,' and revisit the physical walking activity if confusion returns.",
+      "tryItYourself": [
+        "Plot (1,4), (3,4), (3,1), (1,1) in order and connect them. What shape do you get?",
+        "Give a partner coordinates for a 'mystery point' and have them find it on a grid.",
+        "Identify the coordinates of three points already marked on a grid."
+      ],
+      "whyThisMattersLater": "This exact (x,y) addressing system becomes the stage for graphing proportional relationships in Module 6, linear equations in Module 8, and the entire foundation of graphing functions throughout high school."
+    },
+    {
+      "slug": "pre-algebra-expressions-equations-as-balance",
+      "title": "Pre-Algebra: Expressions & Equations as Balance",
+      "order": 7,
+      "bigIdea": "An equation is a balance scale frozen at a moment of perfect balance — whatever you do to one side, you must do to the other to keep it level, and 'solving' an equation just means figuring out what unknown weight keeps the scale balanced.",
+      "hook": "If one side of a balance has a mystery box and the other side has known weights, how can you figure out what the mystery box must weigh without opening it?",
+      "buildingTheIdea": "Use a physical balance scale with objects and a concealed box representing the unknown. Show that whatever is done to one side must be done to the other to keep the scale level, and that expressions are just calculations waiting to be simplified or compared. Build the habit of preserving equality before moving toward symbolic solving.",
+      "workedExamples": [
+        "Solve x + 3 = 10 by removing 3 from both sides of the balance.",
+        "Interpret 2(x + 4) as two equal groups of a quantity that itself contains x and 4."
+      ],
+      "misconceptionAlert": "Children often think solving means 'moving the number across and changing the sign' without understanding why the balance remains valid. Emphasize the physical action on both sides of the scale before introducing symbolic shorthand.",
+      "tryItYourself": [
+        "Solve x + 5 = 12 using a balance model.",
+        "Explain what 3(x + 2) means in words.",
+        "Make up your own balance equation and solve it by doing the same thing to both sides."
+      ],
+      "whyThisMattersLater": "This balance model is the direct bridge to solving linear equations in Module 6 and beyond, where the same keeping things equal logic becomes fully symbolic."
+    },
+    {
+      "slug": "data-analysis-and-line-plots",
+      "title": "Data Analysis & Line Plots",
+      "order": 8,
+      "bigIdea": "A line plot is a compact way to show how data values are distributed, and it becomes especially powerful for seeing repeated values, spread, and fair-share patterns all at once.",
+      "hook": "If you measured everyone's hand span or favorite object length, how could you show all the values so that you can spot patterns instantly without listing them in a messy column?",
+      "buildingTheIdea": "Collect measurement data and place each value as a mark on a number line, stacking repeated values vertically. Use the plot to notice clusters, gaps, and the overall spread of the data, and connect this to the fair-share logic of averages and to the measurement units used earlier in the module.",
+      "workedExamples": [
+        "Make a line plot from a class's shoe lengths and identify the most common value.",
+        "Compare two line plots to discuss which set has greater spread."
+      ],
+      "misconceptionAlert": "Children often read line plots as if every tick mark is a separate category rather than a real measurement scale. Reinforce that each tick is a value on a number line, so its position matters.",
+      "tryItYourself": [
+        "Collect 8 measurement values and create a line plot.",
+        "Find the most common value in your plot.",
+        "Which has more spread: a set clustered tightly around 10 or a set spread from 5 to 15?"
+      ],
+      "whyThisMattersLater": "This visual way of showing distributions prepares students for statistical summaries in Module 6 and for more complex data displays in later grades."
+    }
+  ]
+}

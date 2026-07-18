@@ -1,0 +1,148 @@
+{
+  "slug": "module-7",
+  "title": "Reasoning Gets Formal",
+  "order": 7,
+  "theme": "The theme is handling all numbers as one unified system, and reasoning about relationships (not just single answers).",
+  "description": "A complete curriculum in seven units.",
+  "units": [
+    {
+      "slug": "rational-numbers-unified",
+      "title": "Rational Numbers Unified",
+      "order": 1,
+      "bigIdea": "Integers, fractions, and decimals are all rational numbers living on the same number line, and the same operation rules apply to all of them no matter what costume the number is wearing.",
+      "hook": "If -3/4, -0.75, and a point left of zero on a number line all describe the same location, are these really different kinds of numbers — or the same number written in different ways?",
+      "buildingTheIdea": "Revisit the number-line direction model from Module 6's integers and the equivalence model from Module 6's fractions, decimals, and percentages unit, and combine them: every rational number has one exact location on the same number line. Show that converting between forms changes only the notation, not the position or the rules for operating with the number.",
+      "workedExamples": [
+        "-3/4 + 1.5: convert 1.5 to 6/4, then compute -3/4 + 6/4 = 3/4.",
+        "-2.5 × 4: apply the familiar negative-times-positive rule from integers to get -10.",
+        "Order -1.2, -1/2, and 0.3 on a number line by converting them to a common form first."
+      ],
+      "misconceptionAlert": "Children often treat negative fractions and negative decimals as needing their own separate rule systems. Keep pointing out that the sign rule never changes — only the size and notation of the number do.",
+      "tryItYourself": [
+        "Compute -5/6 - 1/3.",
+        "Compute -0.4 × -5.",
+        "Order -3, -1/4, and -2.5 from smallest to largest."
+      ],
+      "whyThisMattersLater": "This unification is exactly what students need for the real number system in Module 8, and for solving equations fluently when different number forms appear together."
+    },
+    {
+      "slug": "proportional-relationships-and-their-graphs",
+      "title": "Proportional Relationships & Their Graphs",
+      "order": 2,
+      "bigIdea": "A proportional relationship scales by a constant ratio, and when graphed it forms a straight line through the origin whose steepness is the same as the unit rate.",
+      "hook": "If a car travels at a steady 60 km/h, what shape should a distance-versus-time graph make, and why must that graph pass through the origin?",
+      "buildingTheIdea": "Build tables for proportional situations such as distance equals speed times time, then plot the pairs on a coordinate plane. Make the connection explicit that the constant ratio in the table, the unit rate in words, and the line's steepness on the graph are all the same underlying idea seen three ways.",
+      "workedExamples": [
+        "Graph y = 3x by plotting points such as (1,3), (2,6), and (3,9), and observe that the constant ratio y/x = 3 matches the line's steepness.",
+        "Check whether a graphed line is proportional by confirming that it is straight and passes through the origin."
+      ],
+      "misconceptionAlert": "Children sometimes think every straight line is proportional. Directly contrast a line through the origin with a shifted straight line that has a starting fee, showing that straight is not enough by itself.",
+      "tryItYourself": [
+        "Graph y = 2x and describe its steepness.",
+        "Decide whether cost = 5 + 2 × number of items is proportional, and explain why.",
+        "Find the unit rate represented by y = 4x."
+      ],
+      "whyThisMattersLater": "This line-through-the-origin idea becomes a special case of linear functions in Module 8, and slope as steepness becomes one of the central ideas of algebra."
+    },
+    {
+      "slug": "multi-step-expressions-and-equations",
+      "title": "Multi-Step Expressions & Equations",
+      "order": 3,
+      "bigIdea": "Multi-step expressions and equations are built from the same distributive and balance ideas students already know, just combined across longer chains of reasoning.",
+      "hook": "If several people each pay the same flat fee plus the same price per item, how could one expression describe everyone's total bill at once?",
+      "buildingTheIdea": "Build expressions from real situations and revisit the distributive property from earlier grades as a way to expand and reorganize them. Then connect that same idea to solving longer equations step by step, always preserving balance and checking that different forms really represent the same quantity.",
+      "workedExamples": [
+        "Expand 3(x + 4) into 3x + 12, and verify the two forms match by substituting a value for x.",
+        "Solve 3(x + 4) = 21 by expanding to 3x + 12 = 21, then solving to get x = 3.",
+        "Factor 5x + 15 into 5(x + 3) by identifying the shared factor."
+      ],
+      "misconceptionAlert": "A common error is distributing only to the first term inside parentheses, such as turning 3(x + 4) into 3x + 4. Reinforce the habit that the outside multiplier must connect to every term inside.",
+      "tryItYourself": [
+        "Expand 4(x + 5) and check it by substituting x = 2.",
+        "Solve 2(x - 3) + 4 = 10.",
+        "Factor 6x + 18."
+      ],
+      "whyThisMattersLater": "This expanding and factoring fluency leads directly into binomial multiplication and factoring in Module 8 and later algebra."
+    },
+    {
+      "slug": "inequalities",
+      "title": "Inequalities",
+      "order": 4,
+      "bigIdea": "An inequality describes a whole range of answers rather than a single exact one, which makes it a better fit for many real-world questions than an equation.",
+      "hook": "If you have 50 rupees and notebooks cost 8 rupees each, are you looking for one exact answer — or every number of notebooks you can actually afford?",
+      "buildingTheIdea": "Connect inequalities to balance reasoning from equations, but now interpret the result as a set of valid values instead of a single solution. Introduce the crucial sign-flip rule when multiplying or dividing by a negative number, and make it concrete by testing examples before and after the step.",
+      "workedExamples": [
+        "Solve 8x ≤ 50 to get x ≤ 6.25, then interpret the context to mean at most 6 notebooks.",
+        "Solve -2x < 10 by dividing by -2 and flipping the sign to get x > -5.",
+        "Graph x > 3 on a number line using an open circle and shading."
+      ],
+      "misconceptionAlert": "Children often forget to flip the inequality sign when multiplying or dividing by a negative number. Always test the resulting statement with a sample value so the rule feels justified, not magical.",
+      "tryItYourself": [
+        "Solve 3x + 2 > 11.",
+        "Solve -4x ≥ 20.",
+        "Graph x ≤ -2 on a number line."
+      ],
+      "whyThisMattersLater": "Range-based thinking is essential for optimization, systems of inequalities, and many real-world modeling situations in later algebra."
+    },
+    {
+      "slug": "geometry-angles-triangles-circles",
+      "title": "Geometry: Angles, Triangles, Circles",
+      "order": 5,
+      "bigIdea": "Important geometric facts such as the triangle angle sum and circle formulas can be discovered and justified through investigation, rather than accepted as disconnected rules to memorize.",
+      "hook": "Why do the three angles of every triangle always add to 180°, even when the triangle looks stretched, squashed, or oddly shaped?",
+      "buildingTheIdea": "Have students tear off the three corners of a paper triangle and place them together to form a straight angle, revealing the 180° sum through direct evidence. Then explore circles through measurement and pattern-finding, deriving circumference and area as results that emerge from repeated investigation rather than appearing as unexplained formulas.",
+      "workedExamples": [
+        "Cut or tear the three corners of different triangles and line them up to see that they form a straight angle of 180°.",
+        "Measure the circumference and diameter of several circles and compare the ratio to discover the constant relationship behind circumference.",
+        "Build circle area understanding by rearranging sectors into a shape that connects the formula to something already familiar."
+      ],
+      "misconceptionAlert": "Children often believe geometric formulas are facts that must be memorized because there is no way to see where they come from. Repeated hands-on derivations help replace memorization-first thinking with proof and reasoning.",
+      "tryItYourself": [
+        "Draw or cut several different triangles and test whether their angle sums still make 180°.",
+        "Measure the diameter and circumference of circular objects and compare the ratios.",
+        "Explain in words why a geometric fact is stronger when you can justify it, not just repeat it."
+      ],
+      "whyThisMattersLater": "This habit of deriving and justifying geometric results prepares students for the Pythagorean Theorem, congruence, similarity, and more formal proof in Module 8 and beyond."
+    },
+    {
+      "slug": "probability-compound-events-and-simulation",
+      "title": "Probability: Compound Events & Simulation",
+      "order": 6,
+      "bigIdea": "When more than one chance event happens together, probability can still be reasoned about systematically, and simulation helps test and deepen that reasoning when direct counting becomes hard.",
+      "hook": "If flipping one coin is simple, what happens when you flip two coins, or spin and roll at the same time — how can you keep track of all the possible outcomes without missing any?",
+      "buildingTheIdea": "Extend earlier probability by listing compound outcomes carefully using tables, organized lists, or tree-style thinking. Then use repeated trials or simulations to compare expected patterns with actual results, helping students see how theoretical probability and experimental probability relate.",
+      "workedExamples": [
+        "List all outcomes when flipping two coins and identify the probability of getting exactly one head.",
+        "Combine two events such as rolling a die and flipping a coin, then count favorable outcomes out of the total possible outcomes.",
+        "Run repeated trials of a compound event and compare the simulated results to the predicted probability."
+      ],
+      "misconceptionAlert": "Children often guess compound probabilities from intuition without systematically listing outcomes, which leads to missed or double-counted possibilities. Stress organized counting as the safeguard against this.",
+      "tryItYourself": [
+        "List all outcomes for rolling a die and describe the event of getting an even number.",
+        "List all outcomes for flipping two coins and find the chance of getting two heads.",
+        "Run a small simulation of a compound event and compare your results to your prediction."
+      ],
+      "whyThisMattersLater": "Compound-event reasoning and simulation build the foundation for more sophisticated probability models, data analysis, and formal counting ideas in later mathematics."
+    },
+    {
+      "slug": "statistics-sampling-and-comparing-groups",
+      "title": "Statistics: Sampling & Comparing Groups",
+      "order": 7,
+      "bigIdea": "Statistics is not just about calculating summaries; it is about asking whether a sample represents a larger group fairly, and about comparing groups in ways that account for both center and spread.",
+      "hook": "If you want to know what students in a whole school think, can you just ask your closest friends — or does the way you choose your sample change how trustworthy the result is?",
+      "buildingTheIdea": "Start by contrasting fair and biased samples, making clear that data quality begins before any graph or calculation. Then compare groups using measures of center and spread together, so students learn to tell a fuller story than 'this group's average is bigger.'",
+      "workedExamples": [
+        "Compare two groups that have similar averages but very different spreads, and discuss how that changes the interpretation.",
+        "Examine whether a small or biased sample is likely to represent a larger population fairly.",
+        "Use graphs or summaries to compare two groups on both typical value and variability."
+      ],
+      "misconceptionAlert": "Children often assume any collected data automatically gives a trustworthy answer. Show that a biased sample can produce a neat graph and a clear average while still telling a misleading story.",
+      "tryItYourself": [
+        "Describe a sample that would be unfair for estimating a whole school's favorite subject.",
+        "Compare two small datasets using both center and spread.",
+        "Explain why a larger or more representative sample can lead to better conclusions."
+      ],
+      "whyThisMattersLater": "Sampling and group comparison are the foundations for real statistical reasoning, and they prepare students for the bivariate data and scatter plot work in Module 8."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "module-2",
+  "title": "Numbers Get Powerful",
+  "order": 2,
+  "theme": "The theme is regrouping and multiplying: ten little ideas from Module 1 become tools for handling bigger numbers and the first inklings of multiplication and fractions.",
+  "description": "A complete curriculum in eight units.",
+  "units": [
+    {
+      "slug": "place-value-power-up",
+      "title": "Place Value Power-Up",
+      "order": 1,
+      "bigIdea": "Just as ten ones bundle into one ten, ten tens bundle into one hundred — the exact same trick, repeated. Once you see this pattern, any size of number becomes readable.",
+      "hook": "You counted to 47 last year using bundles of ten. Now imagine something much bigger — like 230 seeds. Counting in bundles of ten alone would still leave you juggling 23 loose bundles on the table. Is there a way to bundle the bundles?",
+      "buildingTheIdea": "Take ten bundles-of-ten (100 sticks total) and tie them together into a super-bundle — one hundred. Now a number like 234 is simply 2 super-bundles, 3 bundles, and 4 loose ones. Every new place value to the left is just ten of the previous size, forever — there's no new trick to learn, only the same one repeated.",
+      "workedExamples": [
+        "Build 154 with hundreds, tens, and ones blocks; say it as 1 hundred, 5 tens, 4 ones, then as 154.",
+        "Expanded form: 154 = 100 + 50 + 4.",
+        "Compare 234 and 243: they share every digit, but in different spots — checking the tens place first (3 vs. 4) immediately tells you which is bigger, without needing to compare the ones at all."
+      ],
+      "misconceptionAlert": "Children often compare numbers digit-by-digit without regard for position — for instance, assuming 91 is bigger than 109 because 9 is a big digit. The fix is to always compare starting from the leftmost biggest place value first, and only move right if there's a tie.",
+      "tryItYourself": [
+        "Build 362 using hundreds, tens, and ones blocks.",
+        "Which is bigger 298 or 301? Explain using place value, not digit-counting.",
+        "Write 506 in expanded form. Why is there no tens term?"
+      ],
+      "whyThisMattersLater": "This same bundling trick runs in reverse for decimals tenths, hundredths in Module 5, and becomes formalized as powers of ten in Module 8's scientific notation."
+    },
+    {
+      "slug": "addition-subtraction-with-regrouping",
+      "title": "Addition & Subtraction with Regrouping",
+      "order": 2,
+      "bigIdea": "\"Carrying\" and \"borrowing\" aren't mysterious rules — they're literally trading ten ones for one ten (or breaking one ten into ten loose ones), exactly like physically swapping bundles.",
+      "hook": "You have 7 ones and add 6 more. That's 13 ones — but nobody writes a number with 13 sitting in the ones place. What actually happens to those extra ones?",
+      "buildingTheIdea": "Use real bundles: whenever ones exceed 9, trade ten of them for one new ten-bundle. For 27 + 16: 7 + 6 = 13 ones = 1 ten + 3 ones; trade that ten in, then combine all the tens (2 + 1 + 1 = 4 tens, 3 ones = 43). Subtraction works the same way backward: when you don't have enough ones to take away, break one ten-bundle into ten loose ones first.",
+      "workedExamples": [
+        "38 + 45: ones first (8+5=13, trade for 1 ten + 3 ones), then tens (3+4+1=8 tens) -> 83.",
+        "52 - 27: not enough ones (2 < 7), so break one ten into ten ones, making 12 ones; 12-7=5, then 4 tens-2 tens=2 tens -> 25.",
+        "Number-line alternative for 52-27: jump in friendly chunks (52-20=32, 32-7=25) — same answer, different strategy."
+      ],
+      "misconceptionAlert": "A very common error is subtracting the smaller digit from the larger one regardless of position — computing 52-27's ones place as 7-2=5 instead of borrowing, landing on a wrong answer like 35. The fix: always check which digit is actually bigger in that place, and trade whenever the top digit is smaller.",
+      "tryItYourself": [
+        "Solve 56 + 38 using the trading strategy. Explain each trade in words.",
+        "Solve 81 - 47, explaining where and why you needed to borrow.",
+        "Solve 52 - 27 using the number-line jump strategy, and check it matches your trading answer."
+      ],
+      "whyThisMattersLater": "This trading mechanism is the literal engine behind multi-digit multiplication and division in Module 4, and behind regrouping decimals in Module 5."
+    },
+    {
+      "slug": "the-birth-of-multiplication",
+      "title": "The Birth of Multiplication",
+      "order": 3,
+      "bigIdea": "Multiplication isn't a new operation to memorize from scratch — it's a shortcut for adding the same group over and over, and arrays rows and columns reveal why the times tables follow patterns instead of being 100 unrelated facts.",
+      "hook": "If you need to know how many wheels are on 6 cars, would you rather add 4+4+4+4+4+4 — or is there a faster way to ask the exact same question?",
+      "buildingTheIdea": "Build arrays with real objects rows columns. Four groups of 3 objects, arranged in 4 rows of 3, gives 3+3+3+3=12 — and if you tilt your head and view it as 3 rows of 4 instead, you get the same total. This is how a child discovers that order doesn't matter in multiplication, instead of being told to accept it.",
+      "workedExamples": [
+        "5x3 as a physical array; verify with skip-counting: 3, 6, 9, 12, 15.",
+        "Build 4x6 as an array of 4 rows of 6 dots; count by rows and by columns to confirm both give 24.",
+        "Break apart a hard fact: 6x7 = 6x5 + 6x2 = 30+12=42."
+      ],
+      "misconceptionAlert": "Many children assume multiplication always makes numbers bigger — true for now, with whole numbers greater than 1, but it's worth a quiet heads-up that this rule will need updating once fractions enter the picture Module 4-5, so the idea isn't over-generalized permanently.",
+      "tryItYourself": [
+        "Build an array for 4x6 and count it two different ways.",
+        "Find two different ways to break apart 7x8 into easier pieces, then add them up.",
+        "Why must 3x4 and 4x3 give the same answer? Use an array to explain."
+      ],
+      "whyThisMattersLater": "Arrays are the exact visual used for area in Module 3, and the break it apart distributive trick used here becomes the formal property used to expand algebraic expressions in Modules 6-7."
+    },
+    {
+      "slug": "fair-shares-intro-to-division-fractions",
+      "title": "Fair Shares — Intro to Division & Fractions",
+      "order": 4,
+      "bigIdea": "Division and fractions both come from the same real action: splitting something into equal-sized, fair shares. Division asks how many in each share? or how many shares? — fractions name what one fair share looks like.",
+      "hook": "You and 3 friends 4 people total want to share 12 cookies completely fairly. How many does each person get, and how do you know it's actually fair?",
+      "buildingTheIdea": "Physically deal out 12 objects one at a time, round-robin, into 4 piles, until none are left — each pile ends up with 3. Connect this directly to fractions: splitting one whole pizza into 2 truly equal parts gives halves each; into 4 truly equal parts gives quarters each. Deliberately show an unfair split uneven pieces next to a fair one, so equal-sized is felt as essential, not assumed.",
+      "workedExamples": [
+        "Share 15 candies equally among 5 kids: deal them out one at a time 3 each.",
+        "Cut a paper pizza into 4 equal pieces; each piece is 1 out of 4 equal parts, or a quarter.",
+        "Cut a different paper pizza into 4 visibly unequal pieces — discuss why these are not quarters, even though there are 4 of them."
+      ],
+      "misconceptionAlert": "Children often think any cut into multiple pieces creates fractions automatically, even when the pieces are unequal sized. Equal size is mandatory for the fraction name to apply — a cake cut into 4 random-sized pieces does not give quarters.",
+      "tryItYourself": [
+        "Split 10 stickers equally between 2 friends. How many each?",
+        "Fold a paper strip into 4 truly equal sections and label one section. What fraction is it?",
+        "Look at two cut pizzas — one with 4 equal slices, one with 4 unequal slices. Which one actually shows quarters? Why?"
+      ],
+      "whyThisMattersLater": "This fairness-based equal-sharing idea becomes formal division in Module 3, fraction equivalence in Modules 3-4, and ratio and proportion in Modules 5-6 — fairness is the emotional core underneath all of these later, more abstract ideas."
+    },
+    {
+      "slug": "time-money",
+      "title": "Time & Money",
+      "order": 5,
+      "bigIdea": "Clocks and coins are both real-world number systems with their own internal bundling rules 60 minutes 1 hour specific coin and note values combine to match any amount — not random facts to memorize, but systems with their own logic, just like place value.",
+      "hook": "Why does a clock count up to 12 and then start over, instead of counting forever like ordinary numbers? And why do we have a coin worth 5, but not one worth 4?",
+      "buildingTheIdea": "Explore a clock face as a repeating cycle, much like the repeating patterns explored in Module 1. Separately, explore money hands-on: build a target amount using different combinations of coins and notes, discovering — just like with place-value bundles — that there's often more than one correct way to reach the same total.",
+      "workedExamples": [
+        "Read an analog clock to the half hour and the quarter hour.",
+        "Build a target amount e.g. 37 of the local currency using the fewest coins/notes possible.",
+        "Build the same amount a second way, using different coins/notes, and confirm both total the same."
+      ],
+      "misconceptionAlert": "Children often read clock hands too literally, assuming the hour has already fully changed the instant the minute hand passes 6 — missing that the hour hand moves gradually and continuously. Use a real, hands-on clock model and move the minute hand slowly while watching the hour hand creep, to make this visible.",
+      "tryItYourself": [
+        "Show a time on a clock face and state it aloud.",
+        "Build 37 or your local currency equivalent using coins and notes two different ways.",
+        "Why doesn't a clock just keep counting past 12 forever?"
+      ],
+      "whyThisMattersLater": "Reading a circular clock face directly seeds angle measurement Module 4 and circle reasoning Module 7. Building the same amount of money multiple ways previews the same value, different representation idea central to fractions, decimals, and percentages in Module 6."
+    },
+    {
+      "slug": "geometry-properties-not-just-names",
+      "title": "Geometry — Properties, Not Just Names",
+      "order": 6,
+      "bigIdea": "Symmetry is a property you can actually test for, by folding and matching — not something you simply eyeball — and shapes can be described far more richly than just by what they're called.",
+      "hook": "If you folded a butterfly drawing exactly down the middle, would the two halves match perfectly? What about a hand-drawn star — or your own footprint?",
+      "buildingTheIdea": "Physically fold paper shapes along different lines to test whether the two halves match exactly. Then sort the shapes already known from Module 1 square, rectangle, triangle, circle by how many lines of symmetry each one has, discovered by folding rather than guessing.",
+      "workedExamples": [
+        "Fold a square along different lines — discover it has 4 lines of symmetry.",
+        "Fold a rectangle — discover it has only 2.",
+        "Fold a scalene all-different-sides triangle — discover it has 0."
+      ],
+      "misconceptionAlert": "Children often assume only neat shapes like squares and circles can have symmetry, missing that some triangles and irregular shapes do too, while other seemingly regular shapes have none. The fix is always to verify by physically folding — never by assumption alone.",
+      "tryItYourself": [
+        "Draw a shape you believe is symmetric, then fold it to check.",
+        "Find one symmetric object and one non-symmetric object around you, and explain how you tested each.",
+        "How many lines of symmetry does a regular perfectly equal-sided triangle have? Fold a paper one to check."
+      ],
+      "whyThisMattersLater": "Formal transformations reflections, rotations in Module 4, and congruence and similarity in Modules 7-8, are all built directly on this fold-and-match intuition."
+    },
+    {
+      "slug": "measurement-with-standard-units",
+      "title": "Measurement with Standard Units",
+      "order": 7,
+      "bigIdea": "Now that Module 1 established why a standard unit is necessary, this unit puts real standard units centimeters, meters, kilograms, liters to work, and connects them directly back to the place-value bundling idea 100 cm bundles into 1 m, exactly like 10 ones bundle into 1 ten.",
+      "hook": "How many of your own footsteps does it take to cross the room? Now, how many centimeters? Which of those two numbers would stay the same no matter who measured it?",
+      "buildingTheIdea": "Use real rulers, scales, and measuring containers. Explicitly draw the connection: 100 centimeters bundle into 1 meter is the exact same idea as 10 ones bundle into 1 ten from earlier units — only the bundle size has changed.",
+      "workedExamples": [
+        "Measure a table in centimeters, then estimate how many meters that is.",
+        "Weigh two objects on a balance scale to compare heavier and lighter, before checking with numbers.",
+        "Compare liquid volumes in two differently shaped containers using a measuring cup."
+      ],
+      "misconceptionAlert": "Children often assume a physically larger object is automatically heavier a large balloon versus a small stone, for instance. Let them weigh genuinely surprising pairs to directly challenge this assumption.",
+      "tryItYourself": [
+        "Measure three objects in centimeters and put them in order from shortest to longest.",
+        "Predict, then check by weighing: which of two differently sized objects is actually heavier?",
+        "Why does 100 cm = 1 m feel like the same idea as 10 ones = 1 ten?"
+      ],
+      "whyThisMattersLater": "This unit-conversion logic directly previews fraction and decimal place-value conversions, and the metric reasoning used throughout Module 4-5 measurement and Module 6 rates."
+    },
+    {
+      "slug": "graphs-tell-stories",
+      "title": "Graphs Tell Stories",
+      "order": 8,
+      "bigIdea": "A graph is built to answer specific questions at a glance — and a good graph-reader asks questions of a graph just as actively as the graph-maker organized the data in the first place.",
+      "hook": "Looking at last year's pictograph of favorite fruits, without recounting anything, can you tell which fruit was least popular — and by how much it lost to the winner?",
+      "buildingTheIdea": "Build simple bar graphs from tally data, using equal-width bars on a clearly labeled axis. Practice actively reading questions from a finished graph: how many more, what's the total, what's the least popular?",
+      "workedExamples": [
+        "Build a bar graph from a small class survey on favorite games.",
+        "Answer comparison questions how many more chose X than Y directly from the bars, without recounting raw data."
+      ],
+      "misconceptionAlert": "If a graph's axis doesn't start at zero, or uses uneven spacing, children will badly misjudge which bar is bigger just from a glance. At this stage, insist on evenly spaced, zero-based axes, to build a sound graph-reading habit from the start.",
+      "tryItYourself": [
+        "Collect a tiny dataset favorite season among friends and build a bar graph from it.",
+        "Write two questions your own graph can answer just by looking at it.",
+        "Why would starting a graph's axis at 5 instead of 0 be misleading?"
+      ],
+      "whyThisMattersLater": "This graph-reading discipline directly prevents misleading-graph errors later on, and bar graphs evolve into histograms and scatter plots by Modules 7-8."
+    }
+  ]
+}
